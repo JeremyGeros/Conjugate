@@ -1,16 +1,20 @@
-require 'templates/spanish_templates'
+require 'conjugate/templates/spanish_templates'
+require 'conjugate/templates/spanish_irregular_verbs'
 
 module Conjugate
   module Spanish
     extend self
-
-    puts Hi
     
     def conjugate(opts ={})
-      template = opts[:template].to_sym
+      unless opts[:template]
+        irregular_template = SpanishIrregularVerbs[opts[:verb]]
+        opts[:template] = irregular_template || opts[:verb][-2..-1]
+      end
+      opts[:tense] ||= "present"
+      
       word = opts[:verb]
       
-      infinitive = @templates[template][:infinitive]
+      infinitive = SpanishTemplates[opts[:template].to_sym][:infinitive]
       inserts = infinitive.scan(/\{{3}\d+\}{3}(\w+)/).flatten
       word_parts = []
       word_copy = word.dup
@@ -21,7 +25,7 @@ module Conjugate
       end
       word_parts << word_copy unless word_copy == ""
       
-      conjugation_template = @templates[template][opts[:tense]][opts[:pronoun]]
+      conjugation_template = SpanishTemplates[opts[:template].to_sym][opts[:tense].to_sym][opts[:pronoun].to_sym]
       positions = conjugation_template.scan(/\{{3}(\d+)\}{3}/).flatten
       verb = conjugation_template
       positions.each do |p|
