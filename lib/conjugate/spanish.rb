@@ -1,8 +1,10 @@
+require 'templates/spanish_templates'
+
 module Conjugate
   module Spanish
     extend self
-    
-    @templates = YAML.load(File.read('templates/spanish.yml').result)
+
+    puts Hi
     
     def conjugate(opts ={})
       template = opts[:template].to_sym
