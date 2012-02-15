@@ -20,10 +20,20 @@ module Conjugate
       word_copy = word.dup
       inserts.each do |letters|
         sub_word = word_copy.scan(/(.+)#{letters}/).flatten.first
-        word_parts << sub_word
-        word_copy = word_copy.gsub(/^#{sub_word}#{letters}/, '')
+        puts "Sub word #{ sub_word.inspect }"
+        if sub_word.nil? || sub_word == ""
+          word_parts << ""
+        else
+          word_parts << sub_word
+          word_copy = word_copy.gsub(/^#{sub_word}#{letters}/, '') 
+        end
       end
       word_parts << word_copy unless word_copy == ""
+      puts word_parts.inspect
+      puts infinitive
+      puts inserts.inspect
+      puts word
+      puts opts[:template]
       
       conjugation_template = SpanishTemplates[opts[:template].to_sym][opts[:tense].to_sym][opts[:pronoun].to_sym]
       positions = conjugation_template.scan(/\{{3}(\d+)\}{3}/).flatten
