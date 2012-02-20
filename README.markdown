@@ -6,6 +6,11 @@ Currently only has support for Spanish.
 
 ```
 Conjugate::Spanish.conjugate(:pronoun => :yo, :verb => 'tener')
-
 => tengo
+```
+Can also pass tenses
+
+```
+Conjugate::Spanish.conjugate(:pronoun => :yo, :verb => 'tener', :tense => :past)
+=> tuve
 ```
