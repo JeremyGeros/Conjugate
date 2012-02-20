@@ -3,5 +3,4 @@ require 'conjugate/spanish'
 
 module Conjugate
   
-  
 end
