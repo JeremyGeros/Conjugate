@@ -27,10 +27,13 @@ module Conjugate
       positions = conjugation_template.scan(/\{{3}(\d+)\}{3}/).flatten
       
       positions.each do |p|
-        conjugation_template.gsub!(/\{{3}#{p}\}{3}/, verb_parts[p.to_i - 1])
+        if opts[:highlight]
+          conjugation_template.gsub!(/\{{3}#{p}\}{3}/, "<span class='regular'>#{ verb_parts[p.to_i - 1] }</span>")
+        else
+          conjugation_template.gsub!(/\{{3}#{p}\}{3}/, verb_parts[p.to_i - 1])
+        end
       end
       conjugation_template
-      
     end
     
     def find_irregular(verb)
