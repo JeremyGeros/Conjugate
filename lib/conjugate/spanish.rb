@@ -16,7 +16,7 @@ module Conjugate
       template = template(opts)
       tense = tense(opts[:tense])
       
-      verb = opts[:verb].downcase
+      verb = opts[:verb]
       
       infinitive = template[:infinitive].dup
       verb_parts = divide_infinitive(infinitive, verb)
@@ -37,7 +37,7 @@ module Conjugate
     end
     
     def find_irregular(verb)
-      SpanishIrregularVerbs[verb]
+      SpanishIrregularVerbs[verb.downcase]
     end
     
     def regular_ending(verb)
