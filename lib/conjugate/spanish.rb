@@ -16,7 +16,7 @@ module Conjugate
       template = template(opts)
       tense = tense(opts[:tense])
       
-      verb = opts[:verb]
+      verb = opts[:verb].downcase
       
       infinitive = template[:infinitive].dup
       verb_parts = divide_infinitive(infinitive, verb)
