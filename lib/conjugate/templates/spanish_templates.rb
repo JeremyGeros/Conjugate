@@ -1898,43 +1898,43 @@ SpanishTemplates = {
   	:infinitive => "{{{1}}}ver", 
   	:present => {
   		:yo => "{{{1}}}veo",
-  		:tu => "ves",
-  		:el => "ve",
+  		:tu => "{{{1}}}ves",
+  		:el => "{{{1}}}ve",
   		:nosotros => "{{{1}}}vemos",
-  		:vosotros => "veis",
-  		:ellos => "ven"
+  		:vosotros => "{{{1}}}veis",
+  		:ellos => "{{{1}}}ven"
   	}, 
   	:imperfect => {
-  		:yo => "veía",
-  		:tu => "veías",
-  		:el => "veía",
-  		:nosotros => "veíamos",
-  		:vosotros => "veíais",
-  		:ellos => "veían"
+  		:yo => "{{{1}}}veía",
+  		:tu => "{{{1}}}veías",
+  		:el => "{{{1}}}veía",
+  		:nosotros => "{{{1}}}veíamos",
+  		:vosotros => "{{{1}}}veíais",
+  		:ellos => "{{{1}}}veían"
   	},
   	:preterite => {
-  		:yo => "vi",
-  		:tu => "viste",
-  		:el => "vio",
-  		:nosotros => "vimos",
-  		:vosotros => "visteis",
-  		:ellos => "vieron"
+  		:yo => "{{{1}}}vi",
+  		:tu => "{{{1}}}viste",
+  		:el => "{{{1}}}vio",
+  		:nosotros => "{{{1}}}vimos",
+  		:vosotros => "{{{1}}}visteis",
+  		:ellos => "{{{1}}}vieron"
   	},
   	:future => {
-  		:yo => "veré",
-  		:tu => "verás",
-  		:el => "verá",
-  		:nosotros => "veremos",
-  		:vosotros => "veréis",
-  		:ellos => "verán"
+  		:yo => "{{{1}}}veré",
+  		:tu => "{{{1}}}verás",
+  		:el => "{{{1}}}verá",
+  		:nosotros => "{{{1}}}veremos",
+  		:vosotros => "{{{1}}}veréis",
+  		:ellos => "{{{1}}}verán"
   	},
   	:conditional => {
-  		:yo => "vería",
-  		:tu => "verías",
-  		:el => "vería",
-  		:nosotros => "veríamos",
-  		:vosotros => "veríais",
-  		:ellos => "verían"
+  		:yo => "{{{1}}}vería",
+  		:tu => "{{{1}}}verías",
+  		:el => "{{{1}}}vería",
+  		:nosotros => "{{{1}}}veríamos",
+  		:vosotros => "{{{1}}}veríais",
+  		:ellos => "{{{1}}}verían"
   	}
   },
 
