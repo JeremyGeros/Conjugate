@@ -2731,46 +2731,46 @@ SpanishTemplates = {
   },
 
   :ir_venir => {
-  	:infinitive => "venir", 
+  	:infinitive => "{{{1}}}venir", 
   	:present => {
-  		:yo => "vengo",
-  		:tu => "vienes",
-  		:el => "viene",
-  		:nosotros => "venimos",
-  		:vosotros => "venís",
-  		:ellos => "vienen"
+  		:yo => "{{{1}}}vengo",
+  		:tu => "{{{1}}}vienes",
+  		:el => "{{{1}}}viene",
+  		:nosotros => "{{{1}}}venimos",
+  		:vosotros => "{{{1}}}venís",
+  		:ellos => "{{{1}}}vienen"
   	}, 
   	:imperfect => {
-  		:yo => "venía",
-  		:tu => "venías",
-  		:el => "venía",
-  		:nosotros => "veníamos",
-  		:vosotros => "veníais",
-  		:ellos => "venían"
+  		:yo => "{{{1}}}venía",
+  		:tu => "{{{1}}}venías",
+  		:el => "{{{1}}}venía",
+  		:nosotros => "{{{1}}}veníamos",
+  		:vosotros => "{{{1}}}veníais",
+  		:ellos => "{{{1}}}venían"
   	},
   	:preterite => {
-  		:yo => "vine",
-  		:tu => "viniste",
-  		:el => "vino",
-  		:nosotros => "vinimos",
-  		:vosotros => "vinisteis",
-  		:ellos => "vinieron"
+  		:yo => "{{{1}}}vine",
+  		:tu => "{{{1}}}viniste",
+  		:el => "{{{1}}}vino",
+  		:nosotros => "{{{1}}}vinimos",
+  		:vosotros => "{{{1}}}vinisteis",
+  		:ellos => "{{{1}}}vinieron"
   	},
   	:future => {
-  		:yo => "vendré",
-  		:tu => "vendrás",
-  		:el => "vendrá",
-  		:nosotros => "vendremos",
-  		:vosotros => "vendréis",
-  		:ellos => "vendrán"
+  		:yo => "{{{1}}}vendré",
+  		:tu => "{{{1}}}vendrás",
+  		:el => "{{{1}}}vendrá",
+  		:nosotros => "{{{1}}}vendremos",
+  		:vosotros => "{{{1}}}vendréis",
+  		:ellos => "{{{1}}}vendrán"
   	},
   	:conditional => {
-  		:yo => "vendría",
-  		:tu => "vendrías",
-  		:el => "vendría",
-  		:nosotros => "vendríamos",
-  		:vosotros => "vendríais",
-  		:ellos => "vendrían"
+  		:yo => "{{{1}}}vendría",
+  		:tu => "{{{1}}}vendrías",
+  		:el => "{{{1}}}vendría",
+  		:nosotros => "{{{1}}}vendríamos",
+  		:vosotros => "{{{1}}}vendríais",
+  		:ellos => "{{{1}}}vendrían"
   	}
   },
 
