@@ -1938,6 +1938,50 @@ SpanishTemplates = {
   	}
   },
 
+  :er_prever => {
+  	:infinitive => "  {{{1}}}ver", 
+  	:present => {
+  		:yo => "  [[{{{1}}}veo]]",
+  		:tu => "  [[{{{1}}}vés]]",
+  		:el => "  [[{{{1}}}vé]]",
+  		:nosotros => "  [[{{{1}}}vemos]]",
+  		:vosotros => "  [[{{{1}}}véis]]",
+  		:ellos => "  [[{{{1}}}vén]]"
+  	}, 
+  	:imperfect => {
+  		:yo => "  [[{{{1}}}veía]]",
+  		:tu => "  [[{{{1}}}veías]]",
+  		:el => "  [[{{{1}}}veía]]",
+  		:nosotros => "  [[{{{1}}}veíamos]]",
+  		:vosotros => "  [[{{{1}}}veíais]]",
+  		:ellos => "  [[{{{1}}}veían]]"
+  	},
+  	:preterite => {
+  		:yo => "  [[{{{1}}}ví]]",
+  		:tu => "  [[{{{1}}}viste]]",
+  		:el => "  [[{{{1}}}previó]]",
+  		:nosotros => "  [[{{{1}}}vimos]]",
+  		:vosotros => "  [[{{{1}}}visteis]]",
+  		:ellos => "  [[{{{1}}}vieron]]"
+  	},
+  	:future => {
+  		:yo => "  [[{{{1}}}veré]]",
+  		:tu => "  [[{{{1}}}verás]]",
+  		:el => "  [[{{{1}}}verá]]",
+  		:nosotros => "  [[{{{1}}}veremos]]",
+  		:vosotros => "  [[{{{1}}}veréis]]",
+  		:ellos => "  [[{{{1}}}verán]]"
+  	},
+  	:conditional => {
+  		:yo => "  [[{{{1}}}vería]]",
+  		:tu => "  [[{{{1}}}verías]]",
+  		:el => "  [[{{{1}}}vería]]",
+  		:nosotros => "  [[{{{1}}}veríamos]]",
+  		:vosotros => "  [[{{{1}}}veríais]]",
+  		:ellos => "  [[{{{1}}}verían]]"
+  	}
+  },
+
   :er_yacer => {
   	:infinitive => "{{{1}}}yacer", 
   	:present => {

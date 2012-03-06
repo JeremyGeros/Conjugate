@@ -767,12 +767,12 @@ SpanishIrregularVerbs = {
   'valer' => :er_valer,
   'prevalerse' => :er_valer,
   
+  'ver' => :er_ver,
   
-  'antever' => :er_ver,
-	'entrever' => :er_ver,
-	'prever' => :er_ver,
-	'ver' => :er_ver,
-	'verse' => :er_ver,
+  'antever' => :er_prever,
+	'entrever' => :er_prever,
+	'prever' => :er_prever,
+	'verse' => :er_prever,
 	
 	
 	'yacer' => :er_yacer,
