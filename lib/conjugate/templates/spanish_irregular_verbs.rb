@@ -737,6 +737,7 @@ SpanishIrregularVerbs = {
 	
 	
 	'abstenerse' => :er_tener,
+	'abstener' => :er_tener,
 	'atener' => :er_tener,
 	'atenerse' => :er_tener,
 	'contener' => :er_tener,
@@ -887,6 +888,7 @@ SpanishIrregularVerbs = {
 	'provenir' => :ir_venir,
 	'revenirse' => :ir_venir,
 	'venir' => :ir_venir,
+	'sobrevenir' => :ir_venir,
 	
 	
 	'enraizar' => :izar,
@@ -1421,6 +1423,8 @@ SpanishIrregularVerbs = {
 	'prconizar' => :zar,
 	'presuizar' => :zar,
 	'puntualizar' => :zar,
+	'utilizar' => :zar,
+	'trazar' => :zar,
 	
 	
 	'comenzar' => :zar_e_ie,
