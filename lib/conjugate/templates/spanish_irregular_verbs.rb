@@ -773,6 +773,8 @@ SpanishIrregularVerbs = {
 	'entrever' => :er_prever,
 	'prever' => :er_prever,
 	'verse' => :er_prever,
+	'trasver' => :er_prever,
+	'rever' => :er_prever,
 	
 	
 	'yacer' => :er_yacer,

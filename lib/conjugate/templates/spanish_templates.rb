@@ -1939,7 +1939,7 @@ SpanishTemplates = {
   },
 
   :er_prever => {
-  	:infinitive => "  {{{1}}}ver", 
+  	:infinitive => "{{{1}}}ver", 
   	:present => {
   		:yo => "{{{1}}}veo",
   		:tu => "{{{1}}}vés",
