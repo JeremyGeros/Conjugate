@@ -1239,10 +1239,10 @@ SpanishTemplates = {
   	:present => {
   		:yo => "he",
   		:tu => "has",
-  		:el => "ha, hay",
+  		:el => "ha",
   		:nosotros => "hemos",
   		:vosotros => "habéis",
-  		:ellos => "han, hay"
+  		:ellos => "han"
   	}, 
   	:imperfect => {
   		:yo => "había",
