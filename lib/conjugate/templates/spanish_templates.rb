@@ -791,7 +791,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}e{{{2}}}e{{{3}}}eríamos",
   		:vosotros => "{{{1}}}e{{{2}}}e{{{3}}}eríais",
   		:ellos => "{{{1}}}e{{{2}}}e{{{3}}}erían"
-  	
+  	}
   },
 
   :er_o_hue => {
