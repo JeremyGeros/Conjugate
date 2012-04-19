@@ -469,10 +469,6 @@ SpanishIrregularVerbs = {
 	'atender' => :er_e_ie,
 	'cerner' => :er_e_ie,
 	'contender' => :er_e_ie,
-	'defender' => :er_e_ie,
-	'desatender' => :er_e_ie,
-	'descender' => :er_e_ie,
-	'desentenderse' => :er_e_ie,
 	'encender' => :er_e_ie,
 	'entender' => :er_e_ie,
 	'extender' => :er_e_ie,
@@ -480,9 +476,12 @@ SpanishIrregularVerbs = {
 	'hender' => :er_e_ie,
 	'perder' => :er_e_ie,
 	'tender' => :er_e_ie,
-	'tenderse' => :er_e_ie,
 	'trascender' => :er_e_ie,
 	'verter' => :er_e_ie,
+	
+	
+	'defender' => :er_e_defender,
+	'descender' => :er_e_defender,
 	
 	
 	'desosar' => :er_o_hue,
