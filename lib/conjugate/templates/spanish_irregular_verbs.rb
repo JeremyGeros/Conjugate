@@ -1153,15 +1153,9 @@ SpanishIrregularVerbs = {
 	'invertir' => :ir_e_ie_i,
 	'malherir' => :ir_e_ie_i,
 	'mentir' => :ir_e_ie_i,
-	'pervertir' => :ir_e_ie_i,
 	'preferir' => :ir_e_ie_i,
 	'presentir' => :ir_e_ie_i,
 	'proferir' => :ir_e_ie_i,
-	'reconvertir' => :ir_e_ie_i,
-	'referir' => :ir_e_ie_i,
-	'referirse' => :ir_e_ie_i,
-	'requerir' => :ir_e_ie_i,
-	'revertir' => :ir_e_ie_i,
 	'sentir' => :ir_e_ie_i,
 	'sentirse' => :ir_e_ie_i,
 	'sugerir' => :ir_e_ie_i,
@@ -1170,6 +1164,12 @@ SpanishIrregularVerbs = {
 	
 	
 	'desmentir' => :ir_desmentir,
+	'pervertir' => :ir_desmentir,
+	'reconvertir' => :ir_desmentir,
+	'referir' => :ir_desmentir,
+	'referirse' => :ir_desmentir,
+	'requerir' => :ir_desmentir,
+	'revertir' => :ir_desmentir,
 	
 	
 	'prohibir' => :ir_i_í,
