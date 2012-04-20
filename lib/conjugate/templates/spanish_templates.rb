@@ -3521,6 +3521,50 @@ SpanishTemplates = {
   		:ellos => "{{{1}}}e{{{2}}}irían"
   	}
   },
+  
+  :ir_desmentir => {
+  	:infinitive => "{{{1}}}e{{{2}}}e{{{3}}}ir", 
+  	:present => {
+  		:yo => "{{{1}}}e{{{2}}}ie{{{3}}}o",
+  		:tu => "{{{1}}}e{{{2}}}ie{{{3}}}es",
+  		:el => "{{{1}}}e{{{2}}}ie{{{3}}}e",
+  		:nosotros => "{{{1}}}e{{{2}}}e{{{3}}}imos",
+  		:vosotros => "{{{1}}}e{{{2}}}e{{{3}}}ís",
+  		:ellos => "{{{1}}}e{{{2}}}ie{{{3}}}en"
+  	}, 
+  	:imperfect => {
+  		:yo => "{{{1}}}e{{{2}}}ía",
+  		:tu => "{{{1}}}e{{{2}}}ías",
+  		:el => "{{{1}}}e{{{2}}}ía",
+  		:nosotros => "{{{1}}}e{{{2}}}íamos",
+  		:vosotros => "{{{1}}}e{{{2}}}íais",
+  		:ellos => "{{{1}}}e{{{2}}}ían"
+  	},
+  	:preterite => {
+  		:yo => "{{{1}}}e{{{2}}}í",
+  		:tu => "{{{1}}}e{{{2}}}iste",
+  		:el => "{{{1}}}i{{{2}}}ió",
+  		:nosotros => "{{{1}}}e{{{2}}}imos",
+  		:vosotros => "{{{1}}}e{{{2}}}isteis",
+  		:ellos => "{{{1}}}i{{{2}}}ieron"
+  	},
+  	:future => {
+  		:yo => "{{{1}}}e{{{2}}}iré",
+  		:tu => "{{{1}}}e{{{2}}}irás",
+  		:el => "{{{1}}}e{{{2}}}irá",
+  		:nosotros => "{{{1}}}e{{{2}}}iremos",
+  		:vosotros => "{{{1}}}e{{{2}}}iréis",
+  		:ellos => "{{{1}}}e{{{2}}}irán"
+  	},
+  	:conditional => {
+  		:yo => "{{{1}}}e{{{2}}}iría",
+  		:tu => "{{{1}}}e{{{2}}}irías",
+  		:el => "{{{1}}}e{{{2}}}iría",
+  		:nosotros => "{{{1}}}e{{{2}}}iríamos",
+  		:vosotros => "{{{1}}}e{{{2}}}iríais",
+  		:ellos => "{{{1}}}e{{{2}}}irían"
+  	}
+  },
 
   :ir_i_í => {
   	:infinitive => "{{{1}}}i{{{2}}}ir", 

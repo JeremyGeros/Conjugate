@@ -1140,7 +1140,6 @@ SpanishIrregularVerbs = {
 	'controvertir' => :ir_e_ie_i,
 	'convertir' => :ir_e_ie_i,
 	'convertirse' => :ir_e_ie_i,
-	'desmentir' => :ir_e_ie_i,
 	'diferir' => :ir_e_ie_i,
 	'digerir' => :ir_e_ie_i,
 	'disentir' => :ir_e_ie_i,
@@ -1168,6 +1167,9 @@ SpanishIrregularVerbs = {
 	'sugerir' => :ir_e_ie_i,
 	'transferir' => :ir_e_ie_i,
 	'zaherir' => :ir_e_ie_i,
+	
+	
+	'desmentir' => :ir_desmentir,
 	
 	
 	'prohibir' => :ir_i_í,
