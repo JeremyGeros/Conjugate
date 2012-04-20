@@ -77,7 +77,12 @@ module Conjugate
       word_copy = verb.dup
       
       inserts.each do |letters|
-        sub_word = word_copy.scan(/(.[^#{letters}]*)#{letters}/).flatten.first
+        sub_word = ""
+        if letters.length <= 1
+          sub_word = word_copy.scan(/(.[^#{letters}]*)#{letters}/).flatten.first
+        else
+          sub_word = word_copy.scan(/(.+)#{letters}/).flatten.first
+        end
         sub_word ||= ""
         
         word_parts << sub_word
