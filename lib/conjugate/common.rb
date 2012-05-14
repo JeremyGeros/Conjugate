@@ -1,11 +1,4 @@
-require 'yaml'
-require 'conjugate/spanish'
-
-module Conjugate
-  
-end
-
-module Work::Conjugate
+module Common
   def global_conjugate(opts ={})
     @debug = opts[:debug].nil? ? false : true
     
@@ -41,5 +34,3 @@ module Work::Conjugate
   end
   
 end
-
-
