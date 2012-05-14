@@ -11,10 +11,6 @@ module Conjugate
       puts "- " + FrenchIrregularVerbs.keys.sort.join("\n- ")
     end
     
-    # def conjugate(opts = {})
-      # global_conjugate(opts)
-    # end
-    
     def find_irregular(verb)
       FrenchIrregularVerbs[verb.downcase]
     end

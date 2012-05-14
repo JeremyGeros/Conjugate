@@ -1,6 +1,6 @@
 module Common
   
-  @dividing_infinitive_regex = /\{{3}\d+\}{3}(\w+)/
+  @@dividing_infinitive_regex = /\{{3}\d+\}{3}(\w+)/
   
   def conjugate(opts ={})
     @debug = opts[:debug].nil? ? false : true
@@ -45,7 +45,7 @@ module Common
   end
   
   def divide_infinitive(infinitive, verb)
-    inserts = infinitive.scan(@dividing_infinitive_regex).flatten
+    inserts = infinitive.scan(@@dividing_infinitive_regex).flatten
     debug(inserts)
     
     word_parts = []
