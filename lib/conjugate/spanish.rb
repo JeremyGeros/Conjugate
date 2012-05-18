@@ -19,12 +19,5 @@ module Conjugate
       SpanishTemplates[(opts[:template] || find_irregular(opts[:verb]) || regular_ending(opts[:verb])).to_sym]
     end
     
-    def common_name(t)
-      return nil unless t
-      changable_names = {:past => :preterite}
-      tense = changable_names[t.to_sym] || t
-      tense
-    end
-    
   end
 end

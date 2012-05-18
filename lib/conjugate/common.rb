@@ -76,7 +76,9 @@ module Common
   # stubbed method individual languages override this to support multiple tenses names
   def common_name(t)
     return nil unless t
-    t
+    changable_names = {:past => :preterite}
+    actual_tense = changable_names[t.to_sym] || t
+    actual_tense
   end
   
 end
