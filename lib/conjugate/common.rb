@@ -76,7 +76,7 @@ module Common
   # stubbed method individual languages override this to support multiple tenses names
   def common_name(t)
     return nil unless t
-    tense
+    t
   end
   
 end
