@@ -44,7 +44,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}erions",
   		:vous => "{{{1}}}eriez",
   		:ils => "{{{1}}}eraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}ant",
+    :past_participle => "{{{1}}}é"
   },
 
   :ir => {
@@ -88,7 +91,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}irions",
   		:vous => "{{{1}}}iriez",
   		:ils => "{{{1}}}iraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}issant",
+    :past_participle => "{{{1}}}i"
   },
 
   :re => {
@@ -132,7 +138,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}rions",
   		:vous => "{{{1}}}riez",
   		:ils => "{{{1}}}raient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}ant",
+    :past_participle => "{{{1}}}u"
   },
 
   :aillir => {
@@ -176,7 +185,10 @@ FrenchTemplates = {
   		:nous => "aillirions",
   		:vous => "ailliriez",
   		:ils => "ailliraient"
-  	}
+  	},
+  	
+  	:present_participle => "aillant‎",
+    :past_participle => "ailli‎"
   },
 
   :aitre => {
@@ -220,7 +232,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}aitrions",
   		:vous => "{{{1}}}aitriez",
   		:ils => "{{{1}}}aitraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}aissant",
+    :past_participle => "{{{1}}}u"
   },
 
   :asseoir => {
@@ -264,7 +279,10 @@ FrenchTemplates = {
   		:nous => "assiérions",
   		:vous => "assiériez",
   		:ils => "assiéraient"
-  	}
+  	},
+  	
+  	:present_participle => "assoyant",
+    :past_participle => "assis"
   },
 
   :aître => {
@@ -308,7 +326,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}aîtrions",
   		:vous => "{{{1}}}aîtriez",
   		:ils => "{{{1}}}aîtraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}aissant",
+    :past_participle => "{{{1}}}u"
   },
 
   :aller => {
@@ -352,7 +373,10 @@ FrenchTemplates = {
   		:nous => "irions",
   		:vous => "iriez",
   		:ils => "iraient"
-  	}
+  	},
+  	
+  	:present_participle => "allant‎",
+    :past_participle => "allé‎"
   },
 
   :avoir => {
@@ -396,7 +420,10 @@ FrenchTemplates = {
   		:nous => "aurions",
   		:vous => "auriez",
   		:ils => "auraient"
-  	}
+  	},
+  	
+  	:present_participle => "ayant",
+    :past_participle => "eu"
   },
 
   :ayer => {
@@ -440,7 +467,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}aierions",
   		:vous => "{{{1}}}aieriez",
   		:ils => "{{{1}}}aieraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}ayant",
+    :past_participle => "{{{1}}}ayé"
   },
 
   :boire => {
@@ -484,7 +514,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}boirions",
   		:vous => "{{{1}}}boiriez",
   		:ils => "{{{1}}}boiraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}buvant",
+    :past_participle => "{{{1}}}bu"
   },
 
   :braire => {
@@ -528,7 +561,10 @@ FrenchTemplates = {
   		:nous => "brairions",
   		:vous => "brairiez",
   		:ils => "brairaient"
-  	}
+  	},
+  	
+  	:present_participle => "brait",
+    :past_participle => "brayant"
   },
 
   :bruire => {
@@ -572,7 +608,10 @@ FrenchTemplates = {
   		:nous => "bruirions",
   		:vous => "bruiriez",
   		:ils => "bruiraient"
-  	}
+  	},
+  	
+  	:present_participle => "bruissant",
+    :past_participle => "brui"
   },
 
   :cer => {
@@ -616,7 +655,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}cerions",
   		:vous => "{{{1}}}ceriez",
   		:ils => "{{{1}}}ceraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}çant",
+    :past_participle => "{{{1}}}cé"
   },
 
   :cevoir => {
@@ -660,7 +702,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}cevrions",
   		:vous => "{{{1}}}cevriez",
   		:ils => "{{{1}}}cevraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}cevant",
+    :past_participle => "{{{1}}}çu"
   },
 
   :choir => {
@@ -704,7 +749,10 @@ FrenchTemplates = {
   		:nous => "choirions",
   		:vous => "choiriez",
   		:ils => "choiraient"
-  	}
+  	},
+  	
+  	:present_participle => "choyant",
+    :past_participle => "chu"
   },
 
   :circoncire => {
@@ -748,7 +796,10 @@ FrenchTemplates = {
   		:nous => "circoncirions",
   		:vous => "circonciriez",
   		:ils => "circonciraient"
-  	}
+  	},
+  	
+  	:present_participle => "circoncis",
+    :past_participle => "circoncisant"
   },
 
   :clore => {
@@ -792,7 +843,10 @@ FrenchTemplates = {
   		:nous => "clorions",
   		:vous => "cloriez",
   		:ils => "cloraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}closant",
+    :past_participle => "{{{1}}}clos"
   },
 
   :clure => {
@@ -836,7 +890,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}clurions",
   		:vous => "{{{1}}}cluriez",
   		:ils => "{{{1}}}cluraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}cluant",
+    :past_participle => "{{{1}}}clu"
   },
 
   :copier_collier => {
@@ -880,7 +937,10 @@ FrenchTemplates = {
   		:nous => "copierions-collerions",
   		:vous => "copieriez-collerions",
   		:ils => "copieraient-colleraient"
-  	}
+  	},
+  	
+  	:present_participle => "copiant-collant",
+    :past_participle => "copié-collé"
   },
 
   :coudre => {
@@ -924,7 +984,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}coudrions",
   		:vous => "{{{1}}}coudriez",
   		:ils => "{{{1}}}coudraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}cousant",
+    :past_participle => "{{{1}}}cousu"
   },
 
   :courir => {
@@ -968,7 +1031,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}courrions",
   		:vous => "{{{1}}}courriez",
   		:ils => "{{{1}}}courraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}courant",
+    :past_participle => "{{{1}}}couru"
   },
 
   :cre => {
@@ -1012,7 +1078,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}crions",
   		:vous => "{{{1}}}criez",
   		:ils => "{{{1}}}craient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}quant",
+    :past_participle => "{{{1}}}cu"
   },
 
   :crire => {
@@ -1056,7 +1125,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}cririons",
   		:vous => "{{{1}}}cririez",
   		:ils => "{{{1}}}criraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}crivant",
+    :past_participle => "{{{1}}}crit"
   },
 
   :croire => {
@@ -1100,7 +1172,10 @@ FrenchTemplates = {
   		:nous => "croirions",
   		:vous => "croiriez",
   		:ils => "croiraient"
-  	}
+  	},
+  	
+  	:present_participle => "croyant",
+    :past_participle => "cru"
   },
 
   :croitre => {
@@ -1144,7 +1219,10 @@ FrenchTemplates = {
   		:nous => "croîtrions",
   		:vous => "croîtriez",
   		:ils => "croîtraient"
-  	}
+  	},
+  	
+  	:present_participle => "croissant",
+    :past_participle => "crû"
   },
 
   :décroitre => {
@@ -1188,7 +1266,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}croîtrions",
   		:vous => "{{{1}}}croîtriez",
   		:ils => "{{{1}}}croîtraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}croissant",
+    :past_participle => "{{{1}}}cru"
   },
 
   :devoir => {
@@ -1232,7 +1313,10 @@ FrenchTemplates = {
   		:nous => "devrions",
   		:vous => "devriez",
   		:ils => "devraient"
-  	}
+  	},
+  	
+  	:present_participle => "devant",
+    :past_participle => "dû"
   },
 
   :confire => {
@@ -1276,7 +1360,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}confirions",
   		:vous => "{{{1}}}confiriez",
   		:ils => "{{{1}}}confiraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}confit",
+    :past_participle => "{{{1}}}confisant"
   },
 
   :dire => {
@@ -1320,7 +1407,10 @@ FrenchTemplates = {
   		:nous => "dirions",
   		:vous => "diriez",
   		:ils => "diraient"
-  	}
+  	},
+  	
+  	:present_participle => "disant",
+    :past_participle => "dit"
   },
 
   :dire_sez => {
@@ -1364,7 +1454,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}dirions",
   		:vous => "{{{1}}}diriez",
   		:ils => "{{{1}}}diraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}disant",
+    :past_participle => "{{{1}}}dit"
   },
 
   :déchoir => {
@@ -1408,51 +1501,57 @@ FrenchTemplates = {
   		:nous => "déchoirions",
   		:vous => "déchoiriez",
   		:ils => "déchoiraient"
-  	}
+  	},
+  	
+  	:present_participle => "-",
+    :past_participle => "déchu"
   },
 
   :e_er => {
-  	:infinitive => "{{{1}}}e{{{2}}}er", 
+  	:infinitive => "{{{2}}}er", 
   	:present => {
-  		:je => "{{{1}}}è{{{2}}}e",
-  		:tu => "{{{1}}}è{{{2}}}es",
-  		:il => "{{{1}}}è{{{2}}}e",
-  		:nous => "{{{1}}}e{{{2}}}ons",
-  		:vous => "{{{1}}}e{{{2}}}ez",
-  		:ils => "{{{1}}}è{{{2}}}ent"
+  		:je => "{{{2}}}e",
+  		:tu => "{{{2}}}es",
+  		:il => "{{{2}}}e",
+  		:nous => "{{{2}}}ons",
+  		:vous => "{{{2}}}ez",
+  		:ils => "{{{2}}}ent"
   	}, 
   	:imperfect => {
-  		:je => "{{{1}}}e{{{2}}}ais",
-  		:tu => "{{{1}}}e{{{2}}}ais",
-  		:il => "{{{1}}}e{{{2}}}ait",
-  		:nous => "{{{1}}}e{{{2}}}ions",
-  		:vous => "{{{1}}}e{{{2}}}iez",
-  		:ils => "{{{1}}}e{{{2}}}aient"
+  		:je => "{{{2}}}ais",
+  		:tu => "{{{2}}}ais",
+  		:il => "{{{2}}}ait",
+  		:nous => "{{{2}}}ions",
+  		:vous => "{{{2}}}iez",
+  		:ils => "{{{2}}}aient"
   	},
   	:past_historic => {
-  		:je => "{{{1}}}e{{{2}}}ai",
-  		:tu => "{{{1}}}e{{{2}}}as",
-  		:il => "{{{1}}}e{{{2}}}a",
-  		:nous => "{{{1}}}e{{{2}}}âmes",
-  		:vous => "{{{1}}}e{{{2}}}âtes",
-  		:ils => "{{{1}}}e{{{2}}}èrent"
+  		:je => "{{{2}}}ai",
+  		:tu => "{{{2}}}as",
+  		:il => "{{{2}}}a",
+  		:nous => "{{{2}}}âmes",
+  		:vous => "{{{2}}}âtes",
+  		:ils => "{{{2}}}èrent"
   	},
   	:future => {
-  		:je => "{{{1}}}è{{{2}}}erai",
-  		:tu => "{{{1}}}è{{{2}}}eras",
-  		:il => "{{{1}}}è{{{2}}}era",
-  		:nous => "{{{1}}}è{{{2}}}erons",
-  		:vous => "{{{1}}}è{{{2}}}erez",
-  		:ils => "{{{1}}}è{{{2}}}eront"
+  		:je => "{{{2}}}erai",
+  		:tu => "{{{2}}}eras",
+  		:il => "{{{2}}}era",
+  		:nous => "{{{2}}}erons",
+  		:vous => "{{{2}}}erez",
+  		:ils => "{{{2}}}eront"
   	},
   	:conditional => {
-  		:je => "{{{1}}}è{{{2}}}erais",
-  		:tu => "{{{1}}}è{{{2}}}erais",
-  		:il => "{{{1}}}è{{{2}}}erait",
-  		:nous => "{{{1}}}è{{{2}}}erions",
-  		:vous => "{{{1}}}è{{{2}}}eriez",
-  		:ils => "{{{1}}}è{{{2}}}eraient"
-  	}
+  		:je => "{{{2}}}erais",
+  		:tu => "{{{2}}}erais",
+  		:il => "{{{2}}}erait",
+  		:nous => "{{{2}}}erions",
+  		:vous => "{{{2}}}eriez",
+  		:ils => "{{{2}}}eraient"
+  	},
+  	
+  	:present_participle => "{{{2}}}ant",
+    :past_participle => "{{{2}}}é"
   },
 
   :éclore => {
@@ -1496,51 +1595,57 @@ FrenchTemplates = {
   		:nous => "{{{1}}}éclorions",
   		:vous => "{{{1}}}écloriez",
   		:ils => "{{{1}}}écloraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}éclosant",
+    :past_participle => "{{{1}}}éclos"
   },
 
   :é_er => {
-  	:infinitive => "{{{1}}}é{{{2}}}er", 
+  	:infinitive => "{{{2}}}er", 
   	:present => {
-  		:je => "{{{1}}}è{{{2}}}e",
-  		:tu => "{{{1}}}è{{{2}}}es",
-  		:il => "{{{1}}}è{{{2}}}e",
-  		:nous => "{{{1}}}é{{{2}}}ons",
-  		:vous => "{{{1}}}é{{{2}}}ez",
-  		:ils => "{{{1}}}è{{{2}}}ent"
+  		:je => "{{{2}}}e",
+  		:tu => "{{{2}}}es",
+  		:il => "{{{2}}}e",
+  		:nous => "{{{2}}}ons",
+  		:vous => "{{{2}}}ez",
+  		:ils => "{{{2}}}ent"
   	}, 
   	:imperfect => {
-  		:je => "{{{1}}}é{{{2}}}ais",
-  		:tu => "{{{1}}}é{{{2}}}ais",
-  		:il => "{{{1}}}é{{{2}}}ait",
-  		:nous => "{{{1}}}é{{{2}}}ions",
-  		:vous => "{{{1}}}é{{{2}}}iez",
-  		:ils => "{{{1}}}é{{{2}}}aient"
+  		:je => "{{{2}}}ais",
+  		:tu => "{{{2}}}ais",
+  		:il => "{{{2}}}ait",
+  		:nous => "{{{2}}}ions",
+  		:vous => "{{{2}}}iez",
+  		:ils => "{{{2}}}aient"
   	},
   	:past_historic => {
-  		:je => "{{{1}}}é{{{2}}}ai",
-  		:tu => "{{{1}}}é{{{2}}}as",
-  		:il => "{{{1}}}é{{{2}}}a",
-  		:nous => "{{{1}}}é{{{2}}}âmes",
-  		:vous => "{{{1}}}é{{{2}}}âtes",
-  		:ils => "{{{1}}}é{{{2}}}èrent"
+  		:je => "{{{2}}}ai",
+  		:tu => "{{{2}}}as",
+  		:il => "{{{2}}}a",
+  		:nous => "{{{2}}}âmes",
+  		:vous => "{{{2}}}âtes",
+  		:ils => "{{{2}}}èrent"
   	},
   	:future => {
-  		:je => "{{{1}}}è{{{2}}}erai",
-  		:tu => "{{{1}}}è{{{2}}}eras",
-  		:il => "{{{1}}}è{{{2}}}era",
-  		:nous => "{{{1}}}è{{{2}}}erons",
-  		:vous => "{{{1}}}è{{{2}}}erez",
-  		:ils => "{{{1}}}è{{{2}}}eront"
+  		:je => "{{{2}}}erai",
+  		:tu => "{{{2}}}eras",
+  		:il => "{{{2}}}era",
+  		:nous => "{{{2}}}erons",
+  		:vous => "{{{2}}}erez",
+  		:ils => "{{{2}}}eront"
   	},
   	:conditional => {
-  		:je => "{{{1}}}è{{{2}}}erais",
-  		:tu => "{{{1}}}è{{{2}}}erais",
-  		:il => "{{{1}}}è{{{2}}}erait",
-  		:nous => "{{{1}}}è{{{2}}}erions",
-  		:vous => "{{{1}}}è{{{2}}}eriez",
-  		:ils => "{{{1}}}è{{{2}}}eraient"
-  	}
+  		:je => "{{{2}}}erais",
+  		:tu => "{{{2}}}erais",
+  		:il => "{{{2}}}erait",
+  		:nous => "{{{2}}}erions",
+  		:vous => "{{{2}}}eriez",
+  		:ils => "{{{2}}}eraient"
+  	},
+  	
+  	:present_participle => "{{{2}}}ant",
+    :past_participle => "{{{2}}}é"
   },
 
   :ecer => {
@@ -1584,7 +1689,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}ecerions",
   		:vous => "{{{1}}}eceriez",
   		:ils => "{{{1}}}eceraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}eçant",
+    :past_participle => "{{{1}}}ecé"
   },
 
   :éger => {
@@ -1628,7 +1736,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}ègerions",
   		:vous => "{{{1}}}ègeriez",
   		:ils => "{{{1}}}ègeraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}égeant",
+    :past_participle => "{{{1}}}égé"
   },
 
   :enclore => {
@@ -1672,7 +1783,10 @@ FrenchTemplates = {
   		:nous => "enclorions",
   		:vous => "encloriez",
   		:ils => "encloraient"
-  	}
+  	},
+  	
+  	:present_participle => "enclosant",
+    :past_participle => "enclos"
   },
 
   :eoir => {
@@ -1716,7 +1830,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}eoirions",
   		:vous => "{{{1}}}eoiriez",
   		:ils => "{{{1}}}eoiraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}oyant",
+    :past_participle => "{{{1}}}is"
   },
 
   :envoyer => {
@@ -1760,7 +1877,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}enverrions",
   		:vous => "{{{1}}}enverriez",
   		:ils => "{{{1}}}enverraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}envoyant",
+    :past_participle => "{{{1}}}envoyé"
   },
 
   :estre => {
@@ -1804,7 +1924,10 @@ FrenchTemplates = {
   		:nous => "serions",
   		:vous => "seriez",
   		:ils => "seroient"
-  	}
+  	},
+  	
+  	:present_participle => "estant",
+    :past_participle => "esté"
   },
 
   :être => {
@@ -1848,51 +1971,57 @@ FrenchTemplates = {
   		:nous => "serions",
   		:vous => "seriez",
   		:ils => "seraient"
-  	}
+  	},
+  	
+  	:present_participle => "étant",
+    :past_participle => "été"
   },
 
   :xx_er => {
-  	:infinitive => "{{{1}}}{{{2}}}er", 
+  	:infinitive => "{{{2}}}er", 
   	:present => {
-  		:je => "{{{1}}}{{{2}}}{{{2}}}e",
-  		:tu => "{{{1}}}{{{2}}}{{{2}}}es",
-  		:il => "{{{1}}}{{{2}}}{{{2}}}e",
-  		:nous => "{{{1}}}{{{2}}}ons",
-  		:vous => "{{{1}}}{{{2}}}ez",
-  		:ils => "{{{1}}}{{{2}}}{{{2}}}ent"
+  		:je => "{{{2}}}e",
+  		:tu => "{{{2}}}es",
+  		:il => "{{{2}}}e",
+  		:nous => "{{{2}}}ons",
+  		:vous => "{{{2}}}ez",
+  		:ils => "{{{2}}}ent"
   	}, 
   	:imperfect => {
-  		:je => "{{{1}}}{{{2}}}ais",
-  		:tu => "{{{1}}}{{{2}}}ais",
-  		:il => "{{{1}}}{{{2}}}ait",
-  		:nous => "{{{1}}}{{{2}}}ions",
-  		:vous => "{{{1}}}{{{2}}}iez",
-  		:ils => "{{{1}}}{{{2}}}aient"
+  		:je => "{{{2}}}ais",
+  		:tu => "{{{2}}}ais",
+  		:il => "{{{2}}}ait",
+  		:nous => "{{{2}}}ions",
+  		:vous => "{{{2}}}iez",
+  		:ils => "{{{2}}}aient"
   	},
   	:past_historic => {
-  		:je => "{{{1}}}{{{2}}}ai",
-  		:tu => "{{{1}}}{{{2}}}as",
-  		:il => "{{{1}}}{{{2}}}a",
-  		:nous => "{{{1}}}{{{2}}}âmes",
-  		:vous => "{{{1}}}{{{2}}}âtes",
-  		:ils => "{{{1}}}{{{2}}}èrent"
+  		:je => "{{{2}}}ai",
+  		:tu => "{{{2}}}as",
+  		:il => "{{{2}}}a",
+  		:nous => "{{{2}}}âmes",
+  		:vous => "{{{2}}}âtes",
+  		:ils => "{{{2}}}èrent"
   	},
   	:future => {
-  		:je => "{{{1}}}{{{2}}}{{{2}}}erai",
-  		:tu => "{{{1}}}{{{2}}}{{{2}}}eras",
-  		:il => "{{{1}}}{{{2}}}{{{2}}}era",
-  		:nous => "{{{1}}}{{{2}}}{{{2}}}erons",
-  		:vous => "{{{1}}}{{{2}}}{{{2}}}erez",
-  		:ils => "{{{1}}}{{{2}}}{{{2}}}eront"
+  		:je => "{{{2}}}erai",
+  		:tu => "{{{2}}}eras",
+  		:il => "{{{2}}}era",
+  		:nous => "{{{2}}}erons",
+  		:vous => "{{{2}}}erez",
+  		:ils => "{{{2}}}eront"
   	},
   	:conditional => {
-  		:je => "{{{1}}}{{{2}}}{{{2}}}erais",
-  		:tu => "{{{1}}}{{{2}}}{{{2}}}erais",
-  		:il => "{{{1}}}{{{2}}}{{{2}}}erait",
-  		:nous => "{{{1}}}{{{2}}}{{{2}}}erions",
-  		:vous => "{{{1}}}{{{2}}}{{{2}}}eriez",
-  		:ils => "{{{1}}}{{{2}}}{{{2}}}eraient"
-  	}
+  		:je => "{{{2}}}erais",
+  		:tu => "{{{2}}}erais",
+  		:il => "{{{2}}}erait",
+  		:nous => "{{{2}}}erions",
+  		:vous => "{{{2}}}eriez",
+  		:ils => "{{{2}}}eraient"
+  	},
+  	
+  	:present_participle => "{{{2}}}ant",
+    :past_participle => "{{{2}}}é"
   },
 
   :faillir => {
@@ -1936,7 +2065,10 @@ FrenchTemplates = {
   		:nous => "faudrions",
   		:vous => "faudriez",
   		:ils => "faudraient"
-  	}
+  	},
+  	
+  	:present_participle => "faillant",
+    :past_participle => "failli"
   },
 
   :faire => {
@@ -1980,7 +2112,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}ferions",
   		:vous => "{{{1}}}feriez",
   		:ils => "{{{1}}}feraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}faisant",
+    :past_participle => "{{{1}}}fait"
   },
 
   :falloir => {
@@ -2024,7 +2159,10 @@ FrenchTemplates = {
   		:nous => "—",
   		:vous => "—",
   		:ils => "—"
-  	}
+  	},
+  	
+  	:present_participle => "—",
+    :past_participle => "fallu"
   },
 
   :échoir => {
@@ -2068,7 +2206,10 @@ FrenchTemplates = {
   		:nous => "—",
   		:vous => "—",
   		:ils => "échoiraient"
-  	}
+  	},
+  	
+  	:present_participle => "échéant",
+    :past_participle => "échu"
   },
 
   :férir => {
@@ -2112,7 +2253,10 @@ FrenchTemplates = {
   		:nous => "—",
   		:vous => "—",
   		:ils => "—"
-  	}
+  	},
+  	
+  	:present_participle => "-",
+    :past_participle => "-"
   },
 
   :foutre => {
@@ -2156,95 +2300,104 @@ FrenchTemplates = {
   		:nous => "foutrions",
   		:vous => "foutriez",
   		:ils => "foutraient"
-  	}
+  	},
+  	
+  	:present_participle => "foutant",
+    :past_participle => "foutu"
   },
 
   :er_refl_cons => {
-  	:infinitive => "se {{{1}}}er", 
+  	:infinitive => "{{{1}}}er", 
   	:present => {
-  		:je => "me {{{1}}}e",
-  		:tu => "te {{{1}}}es",
-  		:il => "se {{{1}}}e",
-  		:nous => "nous {{{1}}}ons",
-  		:vous => "vous {{{1}}}ez",
-  		:ils => "se {{{1}}}ent"
+  		:je => "{{{1}}}e",
+  		:tu => "{{{1}}}es",
+  		:il => "{{{1}}}e",
+  		:nous => "{{{1}}}ons",
+  		:vous => "{{{1}}}ez",
+  		:ils => "{{{1}}}ent"
   	}, 
   	:imperfect => {
-  		:je => "me {{{1}}}ais",
-  		:tu => "te {{{1}}}ais",
-  		:il => "se {{{1}}}ait",
-  		:nous => "nous {{{1}}}ions",
-  		:vous => "vous {{{1}}}iez",
-  		:ils => "se {{{1}}}aient"
+  		:je => "{{{1}}}ais",
+  		:tu => "{{{1}}}ais",
+  		:il => "{{{1}}}ait",
+  		:nous => "{{{1}}}ions",
+  		:vous => "{{{1}}}iez",
+  		:ils => "{{{1}}}aient"
   	},
   	:past_historic => {
-  		:je => "me {{{1}}}ai",
-  		:tu => "te {{{1}}}as",
-  		:il => "se {{{1}}}a",
-  		:nous => "nous {{{1}}}âmes",
-  		:vous => "vous {{{1}}}âtes",
-  		:ils => "se {{{1}}}èrent"
+  		:je => "{{{1}}}ai",
+  		:tu => "{{{1}}}as",
+  		:il => "{{{1}}}a",
+  		:nous => "{{{1}}}âmes",
+  		:vous => "{{{1}}}âtes",
+  		:ils => "{{{1}}}èrent"
   	},
   	:future => {
-  		:je => "me {{{1}}}erai",
-  		:tu => "te {{{1}}}eras",
-  		:il => "se {{{1}}}era",
-  		:nous => "nous {{{1}}}erons",
-  		:vous => "vous {{{1}}}erez",
-  		:ils => "se {{{1}}}eront"
+  		:je => "{{{1}}}erai",
+  		:tu => "{{{1}}}eras",
+  		:il => "{{{1}}}era",
+  		:nous => "{{{1}}}erons",
+  		:vous => "{{{1}}}erez",
+  		:ils => "{{{1}}}eront"
   	},
   	:conditional => {
-  		:je => "me {{{1}}}erais",
-  		:tu => "te {{{1}}}erais",
-  		:il => "se {{{1}}}erait",
-  		:nous => "nous {{{1}}}erions",
-  		:vous => "vous {{{1}}}eriez",
-  		:ils => "se {{{1}}}eraient"
-  	}
+  		:je => "{{{1}}}erais",
+  		:tu => "{{{1}}}erais",
+  		:il => "{{{1}}}erait",
+  		:nous => "{{{1}}}erions",
+  		:vous => "{{{1}}}eriez",
+  		:ils => "{{{1}}}eraient"
+  	},
+  	
+  	:present_participle => "{{{1}}}ant",
+    :past_participle => "{{{1}}}é"
   },
 
   :er_refl_vowel => {
-  	:infinitive => "s’{{{1}}}er", 
+  	:infinitive => "{{{1}}}er", 
   	:present => {
-  		:je => "m’{{{1}}}e",
-  		:tu => "t’{{{1}}}es",
-  		:il => "s’{{{1}}}e",
-  		:nous => "nous {{{1}}}ons",
-  		:vous => "vous {{{1}}}ez",
-  		:ils => "s’{{{1}}}ent"
+  		:je => "{{{1}}}e",
+  		:tu => "{{{1}}}es",
+  		:il => "{{{1}}}e",
+  		:nous => "{{{1}}}ons",
+  		:vous => "{{{1}}}ez",
+  		:ils => "{{{1}}}ent"
   	}, 
   	:imperfect => {
-  		:je => "m’{{{1}}}ais",
-  		:tu => "t’{{{1}}}ais",
-  		:il => "s’{{{1}}}ait",
-  		:nous => "nous {{{1}}}ions",
-  		:vous => "vous {{{1}}}iez",
-  		:ils => "s’{{{1}}}aient"
+  		:je => "{{{1}}}ais",
+  		:tu => "{{{1}}}ais",
+  		:il => "{{{1}}}ait",
+  		:nous => "{{{1}}}ions",
+  		:vous => "{{{1}}}iez",
+  		:ils => "{{{1}}}aient"
   	},
   	:past_historic => {
-  		:je => "m’{{{1}}}ai",
-  		:tu => "t’{{{1}}}as",
-  		:il => "s’{{{1}}}a",
-  		:nous => "nous {{{1}}}âmes",
-  		:vous => "vous {{{1}}}âtes",
-  		:ils => "s’{{{1}}}èrent"
+  		:je => "{{{1}}}ai",
+  		:tu => "{{{1}}}as",
+  		:il => "{{{1}}}a",
+  		:nous => "{{{1}}}âmes",
+  		:vous => "{{{1}}}âtes",
+  		:ils => "{{{1}}}èrent"
   	},
   	:future => {
-  		:je => "m’{{{1}}}erai",
-  		:tu => "t’{{{1}}}eras",
-  		:il => "s’{{{1}}}era",
-  		:nous => "nous {{{1}}}erons",
-  		:vous => "vous {{{1}}}erez",
-  		:ils => "s’{{{1}}}eront"
+  		:je => "{{{1}}}erai",
+  		:tu => "{{{1}}}eras",
+  		:il => "{{{1}}}era",
+  		:nous => "{{{1}}}erons",
+  		:vous => "{{{1}}}erez",
+  		:ils => "{{{1}}}eront"
   	},
   	:conditional => {
-  		:je => "m’{{{1}}}erais",
-  		:tu => "t’{{{1}}}erais",
-  		:il => "s’{{{1}}}erait",
-  		:nous => "nous {{{1}}}erions",
-  		:vous => "vous {{{1}}}eriez",
-  		:ils => "s’{{{1}}}eraient"
-  	}
+  		:je => "{{{1}}}erais",
+  		:tu => "{{{1}}}erais",
+  		:il => "{{{1}}}erait",
+  		:nous => "{{{1}}}erions",
+  		:vous => "{{{1}}}eriez",
+  		:ils => "{{{1}}}eraient"
+  	},
+  	
+  	:present_participle => "{{{1}}}ant",
+    :past_participle => "{{{1}}}é"
   },
 
   :frire => {
@@ -2288,7 +2441,10 @@ FrenchTemplates = {
   		:nous => "—",
   		:vous => "—",
   		:ils => "—"
-  	}
+  	},
+  	
+  	:present_participle => "frisant",
+    :past_participle => "frit"
   },
 
   :fuir => {
@@ -2332,7 +2488,10 @@ FrenchTemplates = {
   		:nous => "fuirions",
   		:vous => "fuiriez",
   		:ils => "fuiraient"
-  	}
+  	},
+  	
+  	:present_participle => "fuyant",
+    :past_participle => "fui"
   },
 
   :ger => {
@@ -2376,7 +2535,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}gerions",
   		:vous => "{{{1}}}geriez",
   		:ils => "{{{1}}}geraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}geant",
+    :past_participle => "{{{1}}}gé"
   },
 
   :gésir => {
@@ -2420,7 +2582,10 @@ FrenchTemplates = {
   		:nous => "—",
   		:vous => "—",
   		:ils => "—"
-  	}
+  	},
+  	
+  	:present_participle => "gisant",
+    :past_participle => "—"
   },
 
   :haïr => {
@@ -2464,7 +2629,10 @@ FrenchTemplates = {
   		:nous => "haïrions",
   		:vous => "haïriez",
   		:ils => "haïraient"
-  	}
+  	},
+  	
+  	:present_participle => "haïssant",
+    :past_participle => "haï"
   },
 
   :ir_e => {
@@ -2508,51 +2676,57 @@ FrenchTemplates = {
   		:nous => "{{{1}}}erions",
   		:vous => "{{{1}}}eriez",
   		:ils => "{{{1}}}eraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}ant",
+    :past_participle => "{{{1}}}i"
   },
 
   :ir_s => {
-  	:infinitive => "{{{1}}}{{{2}}}ir", 
+  	:infinitive => "{{{2}}}ir", 
   	:present => {
   		:je => "{{{1}}}s",
   		:tu => "{{{1}}}s",
   		:il => "{{{1}}}t",
-  		:nous => "{{{1}}}{{{2}}}ons",
-  		:vous => "{{{1}}}{{{2}}}ez",
-  		:ils => "{{{1}}}{{{2}}}ent"
+  		:nous => "{{{2}}}ons",
+  		:vous => "{{{2}}}ez",
+  		:ils => "{{{2}}}ent"
   	}, 
   	:imperfect => {
-  		:je => "{{{1}}}{{{2}}}ais",
-  		:tu => "{{{1}}}{{{2}}}ais",
-  		:il => "{{{1}}}{{{2}}}ait",
-  		:nous => "{{{1}}}{{{2}}}ions",
-  		:vous => "{{{1}}}{{{2}}}iez",
-  		:ils => "{{{1}}}{{{2}}}aient"
+  		:je => "{{{2}}}ais",
+  		:tu => "{{{2}}}ais",
+  		:il => "{{{2}}}ait",
+  		:nous => "{{{2}}}ions",
+  		:vous => "{{{2}}}iez",
+  		:ils => "{{{2}}}aient"
   	},
   	:past_historic => {
-  		:je => "{{{1}}}{{{2}}}is",
-  		:tu => "{{{1}}}{{{2}}}is",
-  		:il => "{{{1}}}{{{2}}}it",
-  		:nous => "{{{1}}}{{{2}}}îmes",
-  		:vous => "{{{1}}}{{{2}}}îtes",
-  		:ils => "{{{1}}}{{{2}}}irent"
+  		:je => "{{{2}}}is",
+  		:tu => "{{{2}}}is",
+  		:il => "{{{2}}}it",
+  		:nous => "{{{2}}}îmes",
+  		:vous => "{{{2}}}îtes",
+  		:ils => "{{{2}}}irent"
   	},
   	:future => {
-  		:je => "{{{1}}}{{{2}}}irai",
-  		:tu => "{{{1}}}{{{2}}}iras",
-  		:il => "{{{1}}}{{{2}}}ira",
-  		:nous => "{{{1}}}{{{2}}}irons",
-  		:vous => "{{{1}}}{{{2}}}irez",
-  		:ils => "{{{1}}}{{{2}}}iront"
+  		:je => "{{{2}}}irai",
+  		:tu => "{{{2}}}iras",
+  		:il => "{{{2}}}ira",
+  		:nous => "{{{2}}}irons",
+  		:vous => "{{{2}}}irez",
+  		:ils => "{{{2}}}iront"
   	},
   	:conditional => {
-  		:je => "{{{1}}}{{{2}}}irais",
-  		:tu => "{{{1}}}{{{2}}}irais",
-  		:il => "{{{1}}}{{{2}}}irait",
-  		:nous => "{{{1}}}{{{2}}}irions",
-  		:vous => "{{{1}}}{{{2}}}iriez",
-  		:ils => "{{{1}}}{{{2}}}iraient"
-  	}
+  		:je => "{{{2}}}irais",
+  		:tu => "{{{2}}}irais",
+  		:il => "{{{2}}}irait",
+  		:nous => "{{{2}}}irions",
+  		:vous => "{{{2}}}iriez",
+  		:ils => "{{{2}}}iraient"
+  	},
+  	
+  	:present_participle => "{{{2}}}ant",
+    :past_participle => "{{{2}}}i"
   },
 
   :lire => {
@@ -2596,7 +2770,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}lirions",
   		:vous => "{{{1}}}liriez",
   		:ils => "{{{1}}}liraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}lisant",
+    :past_participle => "{{{1}}}lu"
   },
 
   :luire => {
@@ -2640,7 +2817,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}luirions",
   		:vous => "{{{1}}}luiriez",
   		:ils => "{{{1}}}luiraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}luisant",
+    :past_participle => "{{{1}}}lui"
   },
 
   :maudire => {
@@ -2684,7 +2864,10 @@ FrenchTemplates = {
   		:nous => "maudirions",
   		:vous => "maudiriez",
   		:ils => "maudiraient"
-  	}
+  	},
+  	
+  	:present_participle => "maudissant",
+    :past_participle => "maudit"
   },
 
   :mettre => {
@@ -2728,7 +2911,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}mettrions",
   		:vous => "{{{1}}}mettriez",
   		:ils => "{{{1}}}mettraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}mettant",
+    :past_participle => "{{{1}}}mis"
   },
 
   :moudre => {
@@ -2772,7 +2958,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}moudrions",
   		:vous => "{{{1}}}moudriez",
   		:ils => "{{{1}}}moudraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}moulant",
+    :past_participle => "{{{1}}}moulu"
   },
 
   :mourir => {
@@ -2816,7 +3005,10 @@ FrenchTemplates = {
   		:nous => "mourrions",
   		:vous => "mourriez",
   		:ils => "mourraient"
-  	}
+  	},
+  	
+  	:present_participle => "mourant",
+    :past_participle => "mort"
   },
 
   :mouvoir => {
@@ -2860,7 +3052,10 @@ FrenchTemplates = {
   		:nous => "mouvrions",
   		:vous => "mouvriez",
   		:ils => "mouvraient"
-  	}
+  	},
+  	
+  	:present_participle => "mouvant",
+    :past_participle => "mû"
   },
 
   :mouvoir_u => {
@@ -2904,7 +3099,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}mouvrions",
   		:vous => "{{{1}}}mouvriez",
   		:ils => "{{{1}}}mouvraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}mouvant",
+    :past_participle => "{{{1}}}mu"
   },
 
   :naitre => {
@@ -2948,7 +3146,10 @@ FrenchTemplates = {
   		:nous => "naitrions",
   		:vous => "naitriez",
   		:ils => "naitraient"
-  	}
+  	},
+  	
+  	:present_participle => "naissant",
+    :past_participle => "né"
   },
 
   :naître => {
@@ -2992,7 +3193,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}naîtrions",
   		:vous => "{{{1}}}naîtriez",
   		:ils => "{{{1}}}naîtraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}naissant",
+    :past_participle => "{{{1}}}né"
   },
 
   :ouïr => {
@@ -3036,7 +3240,10 @@ FrenchTemplates = {
   		:nous => "ouïrions",
   		:vous => "ouïriez",
   		:ils => "ouïraient"
-  	}
+  	},
+  	
+  	:present_participle => "oyant",
+    :past_participle => "ouï"
   },
 
   :oître => {
@@ -3080,7 +3287,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}oîtrions",
   		:vous => "{{{1}}}oîtriez",
   		:ils => "{{{1}}}oîtraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}oissant",
+    :past_participle => "{{{1}}}u"
   },
 
   :paître => {
@@ -3124,7 +3334,10 @@ FrenchTemplates = {
   		:nous => "paîtrions",
   		:vous => "paîtriez",
   		:ils => "paîtraient"
-  	}
+  	},
+  	
+  	:present_participle => "paissant",
+    :past_participle => "pu"
   },
 
   :plaire => {
@@ -3168,7 +3381,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}plairions",
   		:vous => "{{{1}}}plairiez",
   		:ils => "{{{1}}}plairaient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}plaisant",
+    :past_participle => "{{{1}}}plu"
   },
 
   :pleuvoir => {
@@ -3212,7 +3428,10 @@ FrenchTemplates = {
   		:nous => "—",
   		:vous => "—",
   		:ils => "pleuvraient"
-  	}
+  	},
+  	
+  	:present_participle => "pleuvant",
+    :past_participle => "plu"
   },
 
   :pourvoir => {
@@ -3256,7 +3475,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}pourvoirions",
   		:vous => "{{{1}}}pourvoiriez",
   		:ils => "{{{1}}}pourvoiraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}pourvoyant",
+    :past_participle => "{{{1}}}pourvu"
   },
 
   :pouvoir => {
@@ -3300,7 +3522,10 @@ FrenchTemplates = {
   		:nous => "pourrions",
   		:vous => "pourriez",
   		:ils => "pourraient"
-  	}
+  	},
+  	
+  	:present_participle => "pouvant",
+    :past_participle => "pu"
   },
 
   :pre => {
@@ -3344,7 +3569,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}rions",
   		:vous => "{{{1}}}riez",
   		:ils => "{{{1}}}raient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}ant",
+    :past_participle => "{{{1}}}u"
   },
 
   :prendre => {
@@ -3388,7 +3616,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}prendrions",
   		:vous => "{{{1}}}prendriez",
   		:ils => "{{{1}}}prendraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}prenant",
+    :past_participle => "{{{1}}}pris"
   },
 
   :prévoir => {
@@ -3432,7 +3663,10 @@ FrenchTemplates = {
   		:nous => "prévoirions",
   		:vous => "prévoiriez",
   		:ils => "prévoiraient"
-  	}
+  	},
+  	
+  	:present_participle => "prévoyant",
+    :past_participle => "prévu"
   },
 
   :quérir => {
@@ -3476,7 +3710,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}querrions",
   		:vous => "{{{1}}}querriez",
   		:ils => "{{{1}}}querraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}quérant",
+    :past_participle => "{{{1}}}quis"
   },
 
   :re_gn => {
@@ -3520,7 +3757,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}ndrions",
   		:vous => "{{{1}}}ndriez",
   		:ils => "{{{1}}}ndraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}gnant",
+    :past_participle => "{{{1}}}nt"
   },
 
   :repleuvoir => {
@@ -3564,7 +3804,10 @@ FrenchTemplates = {
   		:nous => "—",
   		:vous => "—",
   		:ils => "—"
-  	}
+  	},
+  	
+  	:present_participle => "repleuvant",
+    :past_participle => "replu"
   },
 
   :repouvoir => {
@@ -3608,7 +3851,10 @@ FrenchTemplates = {
   		:nous => "repourrions",
   		:vous => "repourriez",
   		:ils => "repourraient"
-  	}
+  	},
+  	
+  	:present_participle => "repouvant",
+    :past_participle => "repu"
   },
 
   :résoudre => {
@@ -3652,7 +3898,10 @@ FrenchTemplates = {
   		:nous => "résoudrions",
   		:vous => "résoudriez",
   		:ils => "résoudraient"
-  	}
+  	},
+  	
+  	:present_participle => "résolvant",
+    :past_participle => "résolu"
   },
 
   :revouloir => {
@@ -3696,7 +3945,10 @@ FrenchTemplates = {
   		:nous => "revoudrions",
   		:vous => "revoudriez",
   		:ils => "revoudraient"
-  	}
+  	},
+  	
+  	:present_participle => "revoulant",
+    :past_participle => "revoulu"
   },
 
   :rir => {
@@ -3740,7 +3992,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}ririons",
   		:vous => "{{{1}}}ririez",
   		:ils => "{{{1}}}riraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}rant",
+    :past_participle => "{{{1}}}ert"
   },
 
   :rire => {
@@ -3784,7 +4039,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}ririons",
   		:vous => "{{{1}}}ririez",
   		:ils => "{{{1}}}riraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}riant",
+    :past_participle => "{{{1}}}ri"
   },
 
   :saillir => {
@@ -3828,7 +4086,10 @@ FrenchTemplates = {
   		:nous => "—",
   		:vous => "—",
   		:ils => "sailliraient"
-  	}
+  	},
+  	
+  	:present_participle => "saillant",
+    :past_participle => "sailli"
   },
 
   :savoir => {
@@ -3872,7 +4133,10 @@ FrenchTemplates = {
   		:nous => "saurions",
   		:vous => "sauriez",
   		:ils => "sauraient"
-  	}
+  	},
+  	
+  	:present_participle => "sachant",
+    :past_participle => "su"
   },
 
   :seoir => {
@@ -3916,7 +4180,10 @@ FrenchTemplates = {
   		:nous => "—",
   		:vous => "—",
   		:ils => "siéraient"
-  	}
+  	},
+  	
+  	:present_participle => "séant",
+    :past_participle => "sis"
   },
 
   :soudre => {
@@ -3960,7 +4227,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}soudrions",
   		:vous => "{{{1}}}soudriez",
   		:ils => "{{{1}}}soudraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}solvant",
+    :past_participle => "{{{1}}}sous"
   },
 
   :souvenir => {
@@ -4004,7 +4274,10 @@ FrenchTemplates = {
   		:nous => "nous souviendrions",
   		:vous => "vous souviendriez",
   		:ils => "se souviendraient"
-  	}
+  	},
+  	
+  	:present_participle => "se souvenant",
+    :past_participle => "souvenu"
   },
 
   :suffire => {
@@ -4048,7 +4321,10 @@ FrenchTemplates = {
   		:nous => "suffirions",
   		:vous => "suffiriez",
   		:ils => "suffiraient"
-  	}
+  	},
+  	
+  	:present_participle => "suffisant",
+    :past_participle => "suffi"
   },
 
   :ensuivre => {
@@ -4092,7 +4368,10 @@ FrenchTemplates = {
   		:nous => "-",
   		:vous => "-",
   		:ils => "ensuivraient"
-  	}
+  	},
+  	
+  	:present_participle => "ensuivant",
+    :past_participle => "ensuivi"
   },
 
   :suivre => {
@@ -4136,7 +4415,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}suivrions",
   		:vous => "{{{1}}}suivriez",
   		:ils => "{{{1}}}suivraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}suivant",
+    :past_participle => "{{{1}}}suivi"
   },
 
   :taire => {
@@ -4180,7 +4462,10 @@ FrenchTemplates = {
   		:nous => "tairions",
   		:vous => "tairiez",
   		:ils => "tairaient"
-  	}
+  	},
+  	
+  	:present_participle => "taisant",
+    :past_participle => "tu"
   },
 
   :tenir => {
@@ -4224,7 +4509,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}tiendrions",
   		:vous => "{{{1}}}tiendriez",
   		:ils => "{{{1}}}tiendraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}tenant",
+    :past_participle => "{{{1}}}tenu"
   },
 
   :traire => {
@@ -4268,7 +4556,10 @@ FrenchTemplates = {
   		:nous => "trairions",
   		:vous => "trairiez",
   		:ils => "trairaient"
-  	}
+  	},
+  	
+  	:present_participle => "trayant",
+    :past_participle => "trait"
   },
 
   :ttre => {
@@ -4312,7 +4603,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}ttrions",
   		:vous => "{{{1}}}ttriez",
   		:ils => "{{{1}}}ttraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}ttant",
+    :past_participle => "{{{1}}}ttu"
   },
 
   :uire => {
@@ -4356,7 +4650,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}uirions",
   		:vous => "{{{1}}}uiriez",
   		:ils => "{{{1}}}uiraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}uisant",
+    :past_participle => "{{{1}}}uit"
   },
 
   :valoir => {
@@ -4400,7 +4697,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}vaudrions",
   		:vous => "{{{1}}}vaudriez",
   		:ils => "{{{1}}}vaudraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}valant",
+    :past_participle => "{{{1}}}valu"
   },
 
   :venir => {
@@ -4444,7 +4744,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}viendrions",
   		:vous => "{{{1}}}viendriez",
   		:ils => "{{{1}}}viendraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}venant",
+    :past_participle => "{{{1}}}venu"
   },
 
   :vêtir => {
@@ -4488,7 +4791,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}vêtirions",
   		:vous => "{{{1}}}vêtiriez",
   		:ils => "{{{1}}}vêtiraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}vêtant",
+    :past_participle => "{{{1}}}vêtu"
   },
 
   :vivre => {
@@ -4532,7 +4838,10 @@ FrenchTemplates = {
   		:nous => "vivrions",
   		:vous => "vivriez",
   		:ils => "vivraient"
-  	}
+  	},
+  	
+  	:present_participle => "vivant",
+    :past_participle => "vécu"
   },
 
   :voir => {
@@ -4576,7 +4885,10 @@ FrenchTemplates = {
   		:nous => "{{{1}}}verrions",
   		:vous => "{{{1}}}verriez",
   		:ils => "{{{1}}}verraient"
-  	}
+  	},
+  	
+  	:present_participle => "{{{1}}}voyant",
+    :past_participle => "{{{1}}}vu"
   },
 
   :vouloir => {
@@ -4620,7 +4932,10 @@ FrenchTemplates = {
   		:nous => "voudrions",
   		:vous => "voudriez",
   		:ils => "voudraient"
-  	}
+  	},
+  	
+  	:present_participle => "voulant",
+    :past_participle => "voulu"
   },
 
   :yer => {
@@ -4664,8 +4979,11 @@ FrenchTemplates = {
   		:nous => "{{{1}}}ierions",
   		:vous => "{{{1}}}ieriez",
   		:ils => "{{{1}}}ieraient"
-  	}
-  }
+  	},
+  	
+  	:present_participle => "{{{1}}}yant",
+    :past_participle => "{{{1}}}yé"
+  },
 
  
-}
+},
