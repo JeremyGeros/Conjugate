@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 module Common
   
   @@dividing_infinitive_regex = /\{{3}\d+\}{3}(\w+)/
@@ -17,10 +18,16 @@ module Common
     
     verb_parts = divide_infinitive(infinitive, verb)
     debug(verb_parts)
-    
-    return nil if template[tense].nil? || template[tense][opts[:pronoun].to_sym].nil?
-    
-    conjugation_template = template[tense][opts[:pronoun].to_sym].dup
+    debug(tense)
+    return nil if (tense != :passe_compose) && (template[tense].nil? || template[tense][opts[:pronoun].to_sym].nil?)
+    debug('v')
+    conjugation_template = nil
+
+    if defined? conjugation_template_finder
+      conjugation_template = conjugation_template_finder(template, tense, opts).dup
+    else
+      conjugation_template = template[tense][opts[:pronoun].to_sym].dup
+    end
     debug(conjugation_template)
     
     positions = conjugation_template.scan(/\{{3}(\d+)\}{3}/).flatten
@@ -35,6 +42,10 @@ module Common
     end
     conjugation_template
   end
+  
+  # def conjugation_template_finder(template, tense, opts)
+  # 
+  # end
   
   def regular_ending(verb)
     verb[-2..-1]
@@ -76,8 +87,9 @@ module Common
   # stubbed method individual languages override this to support multiple tenses names
   def common_name(t)
     return nil unless t
-    changable_names = {:past => :preterite}
-    actual_tense = changable_names[t.to_sym] || t
+    actual_tense = t.to_s.gsub(' ', '_').to_sym
+    changable_names = {:past => :preterite, :passé_composé => :passe_compose}
+    actual_tense = changable_names[actual_tense] || actual_tense
     actual_tense
   end
   

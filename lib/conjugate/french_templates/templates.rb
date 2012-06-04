@@ -4983,7 +4983,7 @@ FrenchTemplates = {
   	
   	:present_participle => "{{{1}}}yant",
     :past_participle => "{{{1}}}yé"
-  },
+  }
 
  
-},
+}

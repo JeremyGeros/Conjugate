@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 require 'conjugate/spanish_templates/templates'
 require 'conjugate/spanish_templates/irregular_verbs'
 require 'conjugate/common'

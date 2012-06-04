@@ -337,6 +337,32 @@ FrenchIrregularVerbs = {
 
   'enjoindre' => :re_gn,
 
-  'rejoindre' => :re_gn
+  'rejoindre' => :re_gn,
+  
+  'venir' => :venir,
+  
+  'devenir' => :venir,
+  
+  'advenir ' => :venir,
+  
+  'contrevenir' => :venir,
+  
+  'circonvenir' => :venir,
+  
+  'convenir' => :venir,
+  
+  'intervenir' => :venir,
+  
+  'parvenir' => :venir, 
+  
+  'prévenir' => :venir,
+  
+  'provenir' => :venir,
+  
+  'revenir' => :venir,
+  
+  'subvenir' => :venir,
+  
+  'survenir' => :venir
   
 }
