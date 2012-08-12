@@ -88,8 +88,8 @@ module Common
   def common_name(t)
     return nil unless t
     actual_tense = t.to_s.gsub(' ', '_').to_sym
-    changable_names = {:past => :preterite, :past => :passe_compose, :passé_composé => :passe_compose}
-    actual_tense = changable_names[actual_tense] || actual_tense
+    @changable_names ||= {:past => :preterite, :past => :passe_compose, :passé_composé => :passe_compose}
+    actual_tense = @changable_names[actual_tense] || actual_tense
     actual_tense
   end
   

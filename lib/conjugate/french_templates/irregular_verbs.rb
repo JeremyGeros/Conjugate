@@ -141,8 +141,6 @@ FrenchIrregularVerbs = {
 
   'essuyer' => :yer,
 
-  'acheter' => :e_er,
-
   'amener' => :e_er,
 
   'emmener' => :e_er,
