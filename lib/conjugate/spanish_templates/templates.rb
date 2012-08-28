@@ -2425,12 +2425,12 @@ SpanishTemplates = {
   :ir_embaír => {
   	:infinitive => "{{{1}}}aír", 
   	:present => {
-  		:yo => "—",
-  		:tu => "—",
-  		:el => "—",
+  		:yo => "-",
+  		:tu => "-",
+  		:el => "-",
   		:nosotros => "{{{1}}}aímos",
   		:vosotros => "{{{1}}}aís",
-  		:ellos => "—"
+  		:ellos => "-"
   	}, 
   	:imperfect => {
   		:yo => "{{{1}}}aía",
