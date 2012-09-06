@@ -160,10 +160,12 @@ FrenchIrregularVerbs = {
   'peser' => :e_er,
 
   'promener' => :e_er,
+  
+  'acheter' => :e_er,
 
   'céder' => :é_er,
 
-  'célébrer' => :é_er,
+  'célébrer' => :é_é_er,
 
   'compléter' => :é_er,
 
@@ -187,13 +189,13 @@ FrenchIrregularVerbs = {
 
   'préférer' => :é_er,
 
-  'proteéger' => :é_er,
+  'proteéger' => :e_é_er,
 
-  'refléter' => :é_er,
+  'refléter' => :e_é_er,
 
-  'répéter' => :é_er,
+  'répéter' => :é_é_er,
 
-  'révéler' => :é_er,
+  'révéler' => :é_é_er,
 
   'suggérer' => :é_er,
 
@@ -201,13 +203,13 @@ FrenchIrregularVerbs = {
 
   'appeler' => :xx_er,
 
-  'épeler' => :xx_er,
+  'épeler' => :é_xx_er,
 
   'rappeler' => :xx_er,
 
-  'renouveler' => :xx_er,
+  'renouveler' => :e_xx_er,
 
-  'feuilleter' => :xx_er,
+  'feuilleter' => :e_xx_er,
 
   'hoqueter' => :xx_er,
 
@@ -215,7 +217,7 @@ FrenchIrregularVerbs = {
 
   'projeter' => :xx_er,
 
-  'rejeter' => :xx_er,
+  'rejeter' => :e_xx_er,
 
   'dormir' => :ir_s,
 
