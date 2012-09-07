@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 module Common
   
-  @@dividing_infinitive_regex = /\{{3}\d+\}{3}(\w+)/
+  @@dividing_infinitive_regex = /\{{3}\d+\}{3}([[:alpha:]]+)/
   
   def conjugate(opts ={})
     @debug = opts[:debug].nil? ? false : true
