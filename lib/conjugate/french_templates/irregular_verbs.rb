@@ -8,6 +8,8 @@ FrenchIrregularVerbs = {
   'dire' => :dire,
 
   'avoir' => :avoir,
+  
+  'lire' => :lire,
 
   'aller' => :aller,
 
