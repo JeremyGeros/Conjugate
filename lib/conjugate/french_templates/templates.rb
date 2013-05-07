@@ -5240,7 +5240,7 @@ FrenchTemplates = {
       :nous => "revoyions",
       :vous => "revoyiez",
       :ils => "revoyaient"
-    }
+    },
     
     :past_historic => {
   		:je => "revis",
@@ -5259,6 +5259,7 @@ FrenchTemplates = {
   		:vous => "reverrez",
   		:ils => "reverront"
   	},
+  	
   	:conditional => {
   		:je => "reverrais",
   		:tu => "reverrais",
