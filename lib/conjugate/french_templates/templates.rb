@@ -5219,7 +5219,60 @@ FrenchTemplates = {
   	
   	:present_participle => "{{{1}}}yant",
     :past_participle => "{{{1}}}yé"
+  },
+  
+  :revoir => {
+    :infinitive => "revoir",
+    
+    :present =>	{
+      :je => "revois",
+      :tu => "revois",
+      :il => "revoit",
+      :nous => "revoyons",
+      :vous => "revoyez",
+      "ils" => "revoient"
+    },
+    
+    :imperfect => {
+      :je => "revoyais",
+      :tu => "revoyais",
+      :il => "revoyait",
+      :nous => "revoyions",
+      :vous => "revoyiez",
+      :ils => "revoyaient"
+    }
+    
+    :past_historic => {
+  		:je => "revis",
+  		:tu => "revis",
+  		:il => "revit",
+  		:nous => "revîmes",
+  		:vous => "revîtes",
+  		:ils => "revirent"
+  	},
+  	
+  	:future => {
+  		:je => "reverrai",
+  		:tu => "reverras",
+  		:il => "reverra",
+  		:nous => "reverrons",
+  		:vous => "reverrez",
+  		:ils => "reverront"
+  	},
+  	:conditional => {
+  		:je => "reverrais",
+  		:tu => "reverrais",
+  		:il => "reverrait",
+  		:nous => "reverrions",
+  		:vous => "reverriez",
+  		:ils => "reverraient"
+  	},
+    
+    :present_participle => "revoyant",
+    :past_participle => "revu"
   }
+  
+
 
  
 }
