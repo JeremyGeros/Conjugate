@@ -5230,7 +5230,7 @@ FrenchTemplates = {
       :il => "revoit",
       :nous => "revoyons",
       :vous => "revoyez",
-      "ils" => "revoient"
+      :ils => "revoient"
     },
     
     :imperfect => {
