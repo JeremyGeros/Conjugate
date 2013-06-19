@@ -367,6 +367,7 @@ FrenchIrregularVerbs = {
   
   'survenir' => :venir,
   
-  'revoir' => :revoir
+  'revoir' => :revoir,
   
+  'dormir' => :dormir
 }

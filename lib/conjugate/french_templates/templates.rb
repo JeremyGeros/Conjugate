@@ -5271,9 +5271,59 @@ FrenchTemplates = {
     
     :present_participle => "revoyant",
     :past_participle => "revu"
-  }
+  },
   
-
+  :dormir => {
+    :infinitive => "dormir", 
+    
+    :present => {
+      :je => "dors",
+      :tu => "dors",
+      :il => "dort", 
+      :nous => "dormons", 
+      :vous => "dormez",
+      :ils => "dorment"
+    },
+    
+    :imperfect => {
+      :je => "dormais",
+      :tu => "dormais",
+      :il => "dormait", 
+      :nous => "dormions", 
+      :vous => "dormiez",
+      :ils => "dormaient"
+    },
+    
+    :past_historic => {
+      :je => "dormis",
+      :tu => "dormis",
+      :il => "dormit", 
+      :nous => "dormîmes", 
+      :vous => "dormîtes",
+      :ils => "dormirent"
+    },
+    
+    :future => {
+      :je => "dormirai",
+      :tu => "dormiras",
+      :il => "dormira", 
+      :nous => "dormirons", 
+      :vous => "dormirez",
+      :ils => "dormiront"
+    },
+    
+    :conditional => {
+      :je => "dormirais",
+      :tu => "dormirais",
+      :il => "dormirait", 
+      :nous => "dormirions", 
+      :vous => "dormiriez",
+      :ils => "dormiraient"
+    },
+    
+    :present_participle => "dormant",
+    :past_participle => "dormi"
+  }
 
  
 }
