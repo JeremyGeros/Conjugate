@@ -369,5 +369,17 @@ FrenchIrregularVerbs = {
   
   'revoir' => :revoir,
   
-  'dormir' => :dormir
+  'dormir' => :dormir,
+  
+  'appartenir' => :tenir,
+  
+  'contenir' => :tenir,
+  
+  'obtenir' => :tenir, 
+  
+  'retenir' => :tenir,
+  
+  'soutenir' => :tenir,
+  
+  'tenir' => :tenir
 }
