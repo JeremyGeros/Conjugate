@@ -381,5 +381,7 @@ FrenchIrregularVerbs = {
   
   'soutenir' => :tenir,
   
-  'tenir' => :tenir
+  'tenir' => :tenir,
+  
+  'devoir' => :devoir
 }
