@@ -125,13 +125,13 @@ FrenchIrregularVerbs = {
 
   'employer' => :yer,
 
-  'envoyer' => :yer,
+  'envoyer' => :envoyer,
 
   'nettoyer' => :yer,
 
   'noyer' => :yer,
 
-  'renvoyer' => :yer,
+  'renvoyer' => :envoyer,
 
   'tutoyer' => :yer,
 
