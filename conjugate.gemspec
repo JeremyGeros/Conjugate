@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.description = s.summary
   s.authors     = ["Jeremy Geros"]
   s.email       = 'jeremy@govocab.com'
-  
+  s.license     = 'MIT'
 
   s.files         = `git ls-files`.split("\n") 
   s.require_paths = ["lib"]
