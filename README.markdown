@@ -15,6 +15,13 @@ Conjugate::Spanish.conjugate(:pronoun => :yo, :verb => 'tener', :tense => :past)
 => tuve
 ```
 
+Also now works for French 
+
+```
+Conjugate::French.conjugate(:pronoun => :je, :verb => 'acheter', :tense => :present)
+=> achète
+```
+
 License
 =======
 

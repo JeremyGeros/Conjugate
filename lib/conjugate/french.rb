@@ -23,7 +23,6 @@ module Conjugate
     def conjugation_template_finder(template, tense, opts)
       if tense == :passe_compose
         if is_etre_verb(opts[:verb])
-          debug('h')
           debug(FrenchTemplates[:être])
           debug(FrenchTemplates[:être][:present])
           debug(FrenchTemplates[:être][:present][opts[:pronoun].to_sym])
