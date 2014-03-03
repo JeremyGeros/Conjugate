@@ -8,7 +8,7 @@ FrenchIrregularVerbs = {
   'dire' => :dire,
 
   'avoir' => :avoir,
-  
+
   'lire' => :lire,
 
   'aller' => :aller,
@@ -162,7 +162,7 @@ FrenchIrregularVerbs = {
   'peser' => :e_er,
 
   'promener' => :e_er,
-  
+
   'acheter' => :e_er,
 
   'céder' => :é_er,
@@ -340,50 +340,50 @@ FrenchIrregularVerbs = {
   'enjoindre' => :re_gn,
 
   'rejoindre' => :re_gn,
-  
+
   'venir' => :venir,
-  
+
   'devenir' => :venir,
-  
+
   'advenir ' => :venir,
-  
+
   'contrevenir' => :venir,
-  
+
   'circonvenir' => :venir,
-  
+
   'convenir' => :venir,
-  
+
   'intervenir' => :venir,
-  
-  'parvenir' => :venir, 
-  
+
+  'parvenir' => :venir,
+
   'prévenir' => :venir,
-  
+
   'provenir' => :venir,
-  
+
   'revenir' => :venir,
-  
+
   'subvenir' => :venir,
-  
+
   'survenir' => :venir,
-  
+
   'revoir' => :revoir,
-  
+
   'dormir' => :dormir,
-  
+
   'appartenir' => :tenir,
-  
+
   'contenir' => :tenir,
-  
-  'obtenir' => :tenir, 
-  
+
+  'obtenir' => :tenir,
+
   'retenir' => :tenir,
-  
+
   'soutenir' => :tenir,
-  
+
   'tenir' => :tenir,
-  
+
   'devoir' => :devoir,
-  
+
   'valoir' => :valoir
 }
