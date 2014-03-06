@@ -1,6 +1,6 @@
-
 require 'rspec'
 require 'conjugate'
+
 
 describe 'French Conjugations' do
 
