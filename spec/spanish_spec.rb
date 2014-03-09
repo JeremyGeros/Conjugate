@@ -20,7 +20,7 @@ describe 'Spanish Conjugations' do
       expect(template[:present][:yo]).to eq('{{{1}}}ie{{{2}}}o')
 
       template = Conjugate::Spanish.template({verb: 'placer'})
-      expect(template[:present][:yo]).to eq('{{{1}}}ie{{{2}}}o')
+      expect(template[:present][:yo]).to eq('{{{1}}}plazco')
     end
     it '.conjugate regular ar' do
       verb = Conjugate::Spanish.conjugate({verb: 'comprar', tense: :present, pronoun: :yo})
@@ -104,10 +104,10 @@ describe 'Spanish Conjugations' do
       verb = Conjugate::Spanish.conjugate({verb: 'ir', tense: :present, pronoun: :yo})
       expect(verb).to eq('voy')
 
-      verb = Conjugate::Spanish.conjugate({verb: 'faire', tense: :past, pronoun: :yo})
+      verb = Conjugate::Spanish.conjugate({verb: 'ir', tense: :past, pronoun: :yo})
       expect(verb).to eq('fui')
 
-      verb = Conjugate::Spanish.conjugate({verb: 'faire', tense: :future, pronoun: :yo})
+      verb = Conjugate::Spanish.conjugate({verb: 'ir', tense: :future, pronoun: :yo})
       expect(verb).to eq('iré')
     end
 
