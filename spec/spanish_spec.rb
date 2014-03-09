@@ -3,124 +3,113 @@ require 'rspec'
 require 'conjugate'
 
 
-describe 'French Conjugations' do
+describe 'Spanish Conjugations' do
 
   describe 'methods testing' do
 
     it '.find_irregular' do
-      type = Conjugate::French.find_irregular('ventar')
+      type = Conjugate::Spanish.find_irregular('ventar')
       expect(type).to eq(:ar_e_ie)
 
-      type = Conjugate::French.find_irregular('haber')
+      type = Conjugate::Spanish.find_irregular('haber')
       expect(type).to eq(:er_haber)
     end
 
     it '.template' do
-      template = Conjugate::French.template({verb: 'ventar'})
+      template = Conjugate::Spanish.template({verb: 'ventar'})
       expect(template[:present][:yo]).to eq('{{{1}}}ie{{{2}}}o')
 
-      template = Conjugate::French.template({verb: 'placer'})
+      template = Conjugate::Spanish.template({verb: 'placer'})
       expect(template[:present][:yo]).to eq('{{{1}}}ie{{{2}}}o')
     end
+    it '.conjugate regular ar' do
+      verb = Conjugate::Spanish.conjugate({verb: 'comprar', tense: :present, pronoun: :yo})
+      expect(verb).to eq('compro')
+
+      verb = Conjugate::Spanish.conjugate({verb: 'comprar', tense: :present, pronoun: :tu})
+      expect(verb).to eq('compras')
+
+      verb = Conjugate::Spanish.conjugate({verb: 'comprar', tense: :present, pronoun: :el})
+      expect(verb).to eq('compra')
+
+      verb = Conjugate::Spanish.conjugate({verb: 'comprar', tense: :present, pronoun: :nosotros})
+      expect(verb).to eq('compramos')
+
+      verb = Conjugate::Spanish.conjugate({verb: 'comprar', tense: :present, pronoun: :vosotros})
+      expect(verb).to eq('compráis')
+
+      verb = Conjugate::Spanish.conjugate({verb: 'comprar', tense: :present, pronoun: :ellos})
+      expect(verb).to eq('compran')
+
+      verb = Conjugate::Spanish.conjugate({verb: 'comprar', tense: :past, pronoun: :yo})
+      expect(verb).to eq('compré')
+
+      verb = Conjugate::Spanish.conjugate({verb: 'comprar', tense: :future, pronoun: :yo})
+      expect(verb).to eq('compraré')
+    end
+
     it '.conjugate regular er' do
-      verb = Conjugate::French.conjugate({verb: 'jouer', tense: :present, pronoun: :je})
-      expect(verb).to eq('joue')
+      verb = Conjugate::Spanish.conjugate({verb: 'beber', tense: :present, pronoun: :yo})
+      expect(verb).to eq('bebo')
 
-      verb = Conjugate::French.conjugate({verb: 'jouer', tense: :present, pronoun: :tu})
-      expect(verb).to eq('joues')
+      verb = Conjugate::Spanish.conjugate({verb: 'beber', tense: :present, pronoun: :tu})
+      expect(verb).to eq('bebes')
 
-      verb = Conjugate::French.conjugate({verb: 'jouer', tense: :present, pronoun: :il})
-      expect(verb).to eq('joue')
+      verb = Conjugate::Spanish.conjugate({verb: 'beber', tense: :present, pronoun: :el})
+      expect(verb).to eq('bebe')
 
-      verb = Conjugate::French.conjugate({verb: 'jouer', tense: :present, pronoun: :nous})
-      expect(verb).to eq('jouons')
+      verb = Conjugate::Spanish.conjugate({verb: 'beber', tense: :present, pronoun: :nosotros})
+      expect(verb).to eq('bebemos')
 
-      verb = Conjugate::French.conjugate({verb: 'jouer', tense: :present, pronoun: :vous})
-      expect(verb).to eq('jouez')
+      verb = Conjugate::Spanish.conjugate({verb: 'beber', tense: :present, pronoun: :vosotros})
+      expect(verb).to eq('bebéis')
 
-      verb = Conjugate::French.conjugate({verb: 'jouer', tense: :present, pronoun: :ils})
-      expect(verb).to eq('jouent')
+      verb = Conjugate::Spanish.conjugate({verb: 'beber', tense: :present, pronoun: :ellos})
+      expect(verb).to eq('beben')
 
-      verb = Conjugate::French.conjugate({verb: 'jouer', tense: :past, pronoun: :je})
-      expect(verb).to eq('ai joué')
+      verb = Conjugate::Spanish.conjugate({verb: 'beber', tense: :past, pronoun: :yo})
+      expect(verb).to eq('bebí')
 
-      verb = Conjugate::French.conjugate({verb: 'jouer', tense: :future, pronoun: :je})
-      expect(verb).to eq('jouerai')
-    end
-
-    it '.conjugate regular ir' do
-      verb = Conjugate::French.conjugate({verb: 'choisir', tense: :present, pronoun: :je})
-      expect(verb).to eq('choisis')
-
-      verb = Conjugate::French.conjugate({verb: 'choisir', tense: :present, pronoun: :tu})
-      expect(verb).to eq('choisis')
-
-      verb = Conjugate::French.conjugate({verb: 'choisir', tense: :present, pronoun: :il})
-      expect(verb).to eq('choisit')
-
-      verb = Conjugate::French.conjugate({verb: 'choisir', tense: :present, pronoun: :nous})
-      expect(verb).to eq('choisissons')
-
-      verb = Conjugate::French.conjugate({verb: 'choisir', tense: :present, pronoun: :vous})
-      expect(verb).to eq('choisissez')
-
-      verb = Conjugate::French.conjugate({verb: 'choisir', tense: :present, pronoun: :ils})
-      expect(verb).to eq('choisissent')
-
-      verb = Conjugate::French.conjugate({verb: 'choisir', tense: :past, pronoun: :je})
-      expect(verb).to eq('ai choisi')
-
-      verb = Conjugate::French.conjugate({verb: 'choisir', tense: :future, pronoun: :je})
-      expect(verb).to eq('choisirai')
+      verb = Conjugate::Spanish.conjugate({verb: 'beber', tense: :future, pronoun: :yo})
+      expect(verb).to eq('beberé')
     end
 
     it '.conjugate regular re' do
-      verb = Conjugate::French.conjugate({verb: 'perdre', tense: :present, pronoun: :je})
-      expect(verb).to eq('perds')
+      verb = Conjugate::Spanish.conjugate({verb: 'vivir', tense: :present, pronoun: :yo})
+      expect(verb).to eq('vivo')
 
-      verb = Conjugate::French.conjugate({verb: 'perdre', tense: :present, pronoun: :tu})
-      expect(verb).to eq('perds')
+      verb = Conjugate::Spanish.conjugate({verb: 'vivir', tense: :present, pronoun: :tu})
+      expect(verb).to eq('vives')
 
-      verb = Conjugate::French.conjugate({verb: 'perdre', tense: :present, pronoun: :il})
-      expect(verb).to eq('perd')
+      verb = Conjugate::Spanish.conjugate({verb: 'vivir', tense: :present, pronoun: :el})
+      expect(verb).to eq('vive')
 
-      verb = Conjugate::French.conjugate({verb: 'perdre', tense: :present, pronoun: :nous})
-      expect(verb).to eq('perdons')
+      verb = Conjugate::Spanish.conjugate({verb: 'vivir', tense: :present, pronoun: :nosotros})
+      expect(verb).to eq('vivimos')
 
-      verb = Conjugate::French.conjugate({verb: 'perdre', tense: :present, pronoun: :vous})
-      expect(verb).to eq('perdez')
+      verb = Conjugate::Spanish.conjugate({verb: 'vivir', tense: :present, pronoun: :vosotros})
+      expect(verb).to eq('vivís')
 
-      verb = Conjugate::French.conjugate({verb: 'perdre', tense: :present, pronoun: :ils})
-      expect(verb).to eq('perdent')
+      verb = Conjugate::Spanish.conjugate({verb: 'vivir', tense: :present, pronoun: :ellos})
+      expect(verb).to eq('viven')
 
-      verb = Conjugate::French.conjugate({verb: 'perdre', tense: :past, pronoun: :je})
-      expect(verb).to eq('ai perdu')
+      verb = Conjugate::Spanish.conjugate({verb: 'vivir', tense: :past, pronoun: :yo})
+      expect(verb).to eq('viví')
 
-      verb = Conjugate::French.conjugate({verb: 'perdre', tense: :future, pronoun: :je})
-      expect(verb).to eq('perdrai')
+      verb = Conjugate::Spanish.conjugate({verb: 'vivir', tense: :future, pronoun: :yo})
+      expect(verb).to eq('viviré')
     end
 
-    it '.conjugate_irregular avoir verb' do
-      verb = Conjugate::French.conjugate({verb: 'faire', tense: :present, pronoun: :je})
-      expect(verb).to eq('fais')
+    it '.conjugate_irregular verb' do
+      verb = Conjugate::Spanish.conjugate({verb: 'ir', tense: :present, pronoun: :yo})
+      expect(verb).to eq('voy')
 
-      verb = Conjugate::French.conjugate({verb: 'faire', tense: :past, pronoun: :je})
-      expect(verb).to eq('ai fait')
+      verb = Conjugate::Spanish.conjugate({verb: 'faire', tense: :past, pronoun: :yo})
+      expect(verb).to eq('fui')
 
-      verb = Conjugate::French.conjugate({verb: 'faire', tense: :future, pronoun: :je})
-      expect(verb).to eq('ferai')
+      verb = Conjugate::Spanish.conjugate({verb: 'faire', tense: :future, pronoun: :yo})
+      expect(verb).to eq('iré')
     end
 
-
-    it '.conjugate_irregular etre verb' do
-      verb = Conjugate::French.conjugate({verb: 'aller', tense: :present, pronoun: :je})
-      expect(verb).to eq('vais')
-
-      verb = Conjugate::French.conjugate({verb: 'aller', tense: :past, pronoun: :je})
-      expect(verb).to eq('suis allé‎')
-
-      verb = Conjugate::French.conjugate({verb: 'aller', tense: :future, pronoun: :je})
-      expect(verb).to eq('irai')
-    end
   end
 end
