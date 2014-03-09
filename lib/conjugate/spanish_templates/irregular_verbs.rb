@@ -3,8 +3,8 @@
 SpanishIrregularVerbs = {
   'andar' => :ar_andar,
   'desandar' => :ar_andar,
-  
-  
+
+
   'acertar' => :ar_e_ie,
   'acrecentar' => :ar_e_ie,
   'aferrar' => :ar_e_ie,
@@ -69,15 +69,15 @@ SpanishIrregularVerbs = {
   'temblar' => :ar_e_ie,
   'tentar' => :ar_e_ie,
   'ventar' => :ar_e_ie,
-	
-	
+
+
 	'agorar' => :ar_go_güe,
   'degollar' => :ar_go_güe,
-  
-  
+
+
   'desosar' => :ar_o_hue,
-  
-  
+
+
   'acordar' => :ar_o_ue,
 	'acordarse' => :ar_o_ue,
 	'acostar' => :ar_o_ue,
@@ -123,8 +123,8 @@ SpanishIrregularVerbs = {
 	'tronar' => :ar_o_ue,
 	'volar' => :ar_o_ue,
 	'pringar' => :ar_o_ue,
-	
-	
+
+
 	'abanicar' => :car,
 	'abarcar' => :car,
 	'abarracar' => :car,
@@ -330,29 +330,29 @@ SpanishIrregularVerbs = {
 	'pizcar' => :car,
 	'ramificarse' => :car,
 	'tocar' => :car,
-	
-	
+
+
 	'convencer' => :cer,
 	'ejercer' => :cer,
 	'mecer' => :cer,
 	'vencer' => :cer,
-	
-	
+
+
 	'escocer' => :cer_o_ue,
 	'cocer' => :cer_o_ue,
-	
-	
+
+
 	'esparcir' => :cir,
 	'fruncir' => :cir,
 	'resarcir' => :cir,
 	'surcir' => :cir,
 	'uncir' => :cir,
 	'zurcir' => :cir,
-	
-	
+
+
 	'dar' => :ar_dar,
-	
-	
+
+
 	'abducir' => :ducir,
 	'aducir' => :ducir,
 	'conducir' => :ducir,
@@ -367,11 +367,11 @@ SpanishIrregularVerbs = {
 	'retraducir' => :ducir,
 	'seducir' => :ducir,
 	'traducir' => :ducir,
-	
-	
+
+
 	'atardecer' => :er_atardecer,
-	
-	
+
+
 	'abastecer' => :er_c_zc,
 	'aborrecer' => :er_c_zc,
 	'acaecer' => :er_c_zc,
@@ -463,8 +463,8 @@ SpanishIrregularVerbs = {
 	'renacer' => :er_c_zc,
 	'resplandecer' => :er_c_zc,
 	'restablecer' => :er_c_zc,
-	
-	
+
+
 	'ascender' => :er_e_ie,
 	'atender' => :er_e_ie,
 	'cerner' => :er_e_ie,
@@ -478,15 +478,15 @@ SpanishIrregularVerbs = {
 	'tender' => :er_e_ie,
 	'trascender' => :er_e_ie,
 	'verter' => :er_e_ie,
-	
-	
+
+
 	'defender' => :er_e_defender,
 	'descender' => :er_e_defender,
-	
-	
+
+
 	'desosar' => :er_o_hue,
-	
-	
+
+
 	'absolver' => :er_o_ue,
 	'condolerse' => :er_o_ue,
 	'conmover' => :er_o_ue,
@@ -509,15 +509,15 @@ SpanishIrregularVerbs = {
 	'revolver' => :er_o_ue,
 	'solver' => :er_o_ue,
 	'volver' => :er_o_ue,
-	
-	
+
+
 	'aberrar' => :ar_errar,
 	'errar' => :ar_errar,
-	
-	
+
+
 	'estar' => :ar_estar,
-	
-	
+
+
 	'agraviar' => :ar_i_í,
 	'agriar' => :ar_i_í,
 	'ahijar' => :ar_i_í,
@@ -583,8 +583,8 @@ SpanishIrregularVerbs = {
 	'variar' => :ar_i_í,
 	'xerografiar' => :ar_i_í,
 	'zurriar' => :ar_i_í,
-	
-	
+
+
 	'ahuchar' => :ar_u_ú,
 	'ahuchear' => :ar_u_ú,
 	'ahumar' => :ar_u_ú,
@@ -638,34 +638,34 @@ SpanishIrregularVerbs = {
 	'situar' => :ar_u_ú,
 	'situarse' => :ar_u_ú,
 	'valuar' => :ar_u_ú,
-	
-	
+
+
 	'revolcar' => :car_o_ue,
   'trocar' => :car_o_ue,
   'volcar' => :car_o_ue,
-  
-  
+
+
   'colegir' => :egir,
 	'corregir' => :egir,
 	'elegir' => :egir,
 	'reelegir' => :egir,
 	'regir' => :egir,
-	
-	
+
+
 	'atañer' => :er_atañer,
-	
-	
+
+
 	'caber' => :er_caber,
-	
-	
+
+
 	'caer' => :er_caer,
 	'decaer' => :er_caer,
 	'recaer' => :er_caer,
-	
-	
+
+
 	'haber' => :er_haber,
-	
-	
+
+
 	'contrahacer' => :er_hacer,
 	'deshacer' => :er_hacer,
 	'hacer' => :er_hacer,
@@ -674,15 +674,15 @@ SpanishIrregularVerbs = {
 	'hacer novillos' => :er_hacer,
 	'rehacer' => :er_hacer,
 	'satisfacer' => :er_hacer,
-	
-	
+
+
 	'placer' => :er_placer,
 	'complacer' => :er_placer,
-	
-	
+
+
 	'poder' => :er_poder,
-	
-	
+
+
 	'anteponer' => :er_poner,
 	'aponer' => :er_poner,
 	'componer' => :er_poner,
@@ -708,33 +708,33 @@ SpanishIrregularVerbs = {
 	'superponer' => :er_poner,
 	'suponer' => :er_poner,
 	'yuxtaponer' => :er_poner,
-	
-	
+
+
 	'querer' => :er_querer,
-	'bienquerer' => :er_querer, 
+	'bienquerer' => :er_querer,
 	'malquerer' => :er_querer,
-	
-	
+
+
 	'raer' => :er_raer,
-	
-	
+
+
 	'rehacer' => :er_rehacer,
-	
-	
+
+
 	'roer' => :er_roer,
 	'corroer' => :er_roer,
-	
-	
+
+
 	'resaber' => :er_saber,
   'saber' => :er_saber,
-  
-  
+
+
   'ser' => :er_ser,
-  
-	
+
+
 	'soler' => :er_soler,
-	
-	
+
+
 	'abstenerse' => :er_tener,
 	'abstener' => :er_tener,
 	'atener' => :er_tener,
@@ -749,8 +749,8 @@ SpanishIrregularVerbs = {
 	'sostener' => :er_tener,
 	'tener' => :er_tener,
 	'tener que' => :er_tener,
-	
-	
+
+
 	'abstraer' => :er_traer,
 	'atraer' => :er_traer,
 	'contraer' => :er_traer,
@@ -761,26 +761,26 @@ SpanishIrregularVerbs = {
 	'substraer' => :er_traer,
 	'sustraer' => :er_traer,
 	'traer' => :er_traer,
-	
-	
+
+
 	'equivaler' => :er_valer,
   'valer' => :er_valer,
   'prevalerse' => :er_valer,
-  
+
   'ver' => :er_ver,
-  
+
   'antever' => :er_prever,
 	'entrever' => :er_prever,
 	'prever' => :er_prever,
 	'verse' => :er_prever,
 	'trasver' => :er_prever,
 	'rever' => :er_prever,
-	
-	
+
+
 	'yacer' => :er_yacer,
 	'subyacer' => :er_yacer,
-	
-	
+
+
 	'desleír' => :eír,
 	'engreír' => :eír,
 	'esleír' => :eír,
@@ -789,11 +789,11 @@ SpanishIrregularVerbs = {
 	'reír' => :eír,
 	'sofreír' => :eír,
 	'sonreír' => :eír,
-	
-	
+
+
 	'jugar' => :gar_u_ue,
-	
-	
+
+
 	'adaguar' => :guar,
 	'aguar' => :guar,
 	'amenguar' => :guar,
@@ -811,22 +811,22 @@ SpanishIrregularVerbs = {
 	'fraguar' => :guar,
 	'menguar' => :guar,
 	'testiguar' => :guar,
-	
-	
+
+
 	'abolir' => :ir_abolir,
   'agredir' => :ir_abolir,
   'aterirse' => :ir_abolir,
-  
+
   'asir' => :ir_asir,
   'desasir' => :ir_asir,
-  
-  
+
+
   'aterir' => :aterir,
   'aterirse' => :aterir,
   'garantir' => :aterir,
   'transgredir' => :aterir,
-  
-  
+
+
   'antedecir' => :ir_decir,
 	'bendecir' => :ir_decir,
 	'condecir' => :ir_decir,
@@ -837,44 +837,44 @@ SpanishIrregularVerbs = {
 	'maldecir' => :ir_decir,
 	'predecir' => :ir_decir,
 	'redecir' => :ir_decir,
-	
-	
+
+
 	'cernir' => :ir_e_ie,
   'concernir' => :ir_e_ie,
   'discernir' => :ir_e_ie,
-  
-  
+
+
   'embaír' => :ir_embaír,
   'desvaír' => :ir_embaír,
-  
-  
+
+
   'erguir' => :ir_erguir,
-  
-  
+
+
 	'adquirir' => :ir_i_ie,
 	'inquirir' => :ir_i_ie,
 	'perquirir' => :ir_i_ie,
 	'coadquirir' => :ir_i_ie,
-	
-	
+
+
 	'ir' => :ir_ir,
-	
-	
+
+
 	'dormir' => :ir_o_ue,
 	'morir' => :ir_o_ue,
-	
-	
+
+
 	'oír' => :ir_oír,
 	'entreoír' => :ir_oír,
-	
-	
+
+
 	'rehuir' => :ir_rehuir,
-	
-	
+
+
 	'salir' => :ir_salir,
 	'sobresalir' => :ir_salir,
-	
-	
+
+
 	'advenir' => :ir_venir,
 	'avenir' => :ir_venir,
 	'circunvenir' => :ir_venir,
@@ -888,17 +888,17 @@ SpanishIrregularVerbs = {
 	'revenirse' => :ir_venir,
 	'venir' => :ir_venir,
 	'sobrevenir' => :ir_venir,
-	
-	
+
+
 	'enraizar' => :izar,
   'homogeneizar' => :izar,
-  
-  
+
+
   'tañer' => :ñer,
   'atañer' => :ñer,
   'empeller' => :ñer,
-  
-  
+
+
   'abnegar' => :gar,
 	'abogar' => :gar,
 	'abrigar' => :gar,
@@ -1013,8 +1013,8 @@ SpanishIrregularVerbs = {
 	'prejuzgar' => :gar,
 	'pringar' => :gar,
 	'prodigar' => :gar,
-	
-	
+
+
 	'anegar' => :gar_e_ie,
 	'cegar' => :gar_e_ie,
 	'denegar' => :gar_e_ie,
@@ -1029,15 +1029,15 @@ SpanishIrregularVerbs = {
 	'restregar' => :gar_e_ie,
 	'segar' => :gar_e_ie,
 	'sosegar' => :gar_e_ie,
-	
-	
+
+
 	'alongar' => :gar_o_ue,
 	'colgar' => :gar_o_ue,
 	'descolgar' => :gar_o_ue,
 	'holgar' => :gar_o_ue,
 	'rogar' => :gar_o_ue,
-	
-	
+
+
 	'acoger' => :ger,
 	'coger' => :ger,
 	'deterger' => :ger,
@@ -1047,8 +1047,8 @@ SpanishIrregularVerbs = {
 	'proteger' => :ger,
 	'recoger' => :ger,
 	'sobrecoger' => :ger,
-	
-	
+
+
 	'afligir' => :gir,
 	'astringir' => :gir,
 	'convergir' => :gir,
@@ -1067,38 +1067,38 @@ SpanishIrregularVerbs = {
 	'surgir' => :gir,
 	'ungir' => :gir,
 	'urgir' => :gir,
-	
-	
+
+
 	'distinguir' => :guir,
 	'extinguir' => :guir,
-	
-	
+
+
 	'conseguir' => :guir_e_i,
 	'perseguir' => :guir_e_i,
 	'proseguir' => :guir_e_i,
 	'seguir' => :guir_e_i,
 	'subseguir' => :guir_e_i,
-	
-	
+
+
 	'argüir' => :güir,
 	'reargüir' => :güir,
 	'redargüir' => :güir,
-	
-	
+
+
 	'ahincar' => :car_i_í,
-	
-	
+
+
 	'cabrahigar' => :gar_i_í,
-	
-	
+
+
 	'acuantiar' => :iar_ar,
 	'afiliar' => :iar_ar,
 	'auxiliar' => :iar_ar,
 	'extasiar' => :iar_ar,
 	'gloriar' => :iar_ar,
 	'vanagloriar' => :iar_ar,
-	
-	
+
+
 	'balbucir' => :ir_c_zc,
 	'deslucir' => :ir_c_zc,
 	'enlucir' => :ir_c_zc,
@@ -1106,8 +1106,8 @@ SpanishIrregularVerbs = {
 	'relucir' => :ir_c_zc,
 	'reproducirse' => :ir_c_zc,
 	'traslucirse' => :ir_c_zc,
-	
-	
+
+
 	'competir' => :ir_e_i,
 	'concebir' => :ir_e_i,
 	'embestir' => :ir_e_i,
@@ -1125,14 +1125,14 @@ SpanishIrregularVerbs = {
 	'vestir' => :ir_e_i,
 	'vestirse' => :ir_e_i,
 	'preconcebir' => :ir_e_e_i,
-	
-	
+
+
 	'derretir' => :ir_e_e_i,
 	'despedir' => :ir_e_e_i,
 	'despedirse' => :ir_e_e_i,
 	'desvestir' => :ir_e_e_i,
-	
-	
+
+
 	'adherir' => :ir_e_ie_i,
 	'advertir' => :ir_e_ie_i,
 
@@ -1161,12 +1161,12 @@ SpanishIrregularVerbs = {
 	'sugerir' => :ir_e_ie_i,
 	'transferir' => :ir_e_ie_i,
 	'zaherir' => :ir_e_ie_i,
-	
+
 	'arrepentir' => :ir_e_e_ie_i,
 	'preferir' => :ir_e_e_ie_i,
 	'presentir' => :ir_e_e_ie_i,
-	
-	
+
+
 	'desmentir' => :ir_desmentir,
 	'pervertir' => :ir_desmentir,
 	'reconvertir' => :ir_desmentir,
@@ -1174,20 +1174,20 @@ SpanishIrregularVerbs = {
 	'referirse' => :ir_desmentir,
 	'requerir' => :ir_desmentir,
 	'revertir' => :ir_desmentir,
-	
-	
+
+
 	'prohibir' => :ir_i_í,
 	'cohibir' => :ir_i_í,
-	
-	
+
+
 	'reunir' => :ir_u_ú,
-	
-	
+
+
 	'delinquir' => :quir,
 	'derelinquir' => :quir,
 	'jaquir' => :quir,
-	
-	
+
+
 	'afluir' => :uir,
 	'atribuir' => :uir,
 	'autodestruir' => :uir,
@@ -1216,8 +1216,8 @@ SpanishIrregularVerbs = {
 	'reconstruir' => :uir,
 	'restituir' => :uir,
 	'sustituir' => :uir,
-	
-	
+
+
 	'abalanzar' => :zar,
 	'abrazar' => :zar,
 	'acorazar' => :zar,
@@ -1430,8 +1430,8 @@ SpanishIrregularVerbs = {
 	'puntualizar' => :zar,
 	'utilizar' => :zar,
 	'trazar' => :zar,
-	
-	
+
+
 	'comenzar' => :zar_e_ie,
 	'despezar' => :zar_e_ie,
 	'empezar' => :zar_e_ie,
@@ -1439,22 +1439,22 @@ SpanishIrregularVerbs = {
 	'entropezar' => :zar_e_ie,
 	'recomenzar' => :zar_e_ie,
 	'tropezar' => :zar_e_ie,
-	
-	
+
+
 	'avergonzar' => :zar_go_güe,
 	'avergonzarse' => :zar_go_güe,
 	'envergonzar' => :zar_go_güe,
 	'desvergonzar' => :zar_go_güe,
 	'desvergonzarse' => :zar_go_güe,
-	
-	
+
+
 	'almorzar' => :zar_o_ue,
 	'desforzar' => :zar_o_ue,
 	'esforzar' => :zar_o_ue,
 	'forzar' => :zar_o_ue,
 	'reforzar' => :zar_o_ue,
-	
-	
+
+
 	'bruñir' => :ñir,
 	'bullir' => :ñir,
 	'engullir' => :ñir,
@@ -1468,8 +1468,8 @@ SpanishIrregularVerbs = {
 	'zabullir' => :ñir,
 	'zambullir' => :ñir,
 	'zambullirse' => :ñir,
-	
-	
+
+
 	'astreñir' => :ñir_e_i,
 	'ceñir' => :ñir_e_i,
 	'constreñir' => :ñir_e_i,
@@ -1479,12 +1479,8 @@ SpanishIrregularVerbs = {
 	'reteñir' => :ñir_e_i,
 	'reñir' => :ñir_e_i,
 	'teñir' => :ñir_e_i
-	
-	
-	
-	
+
+
+
+
 }
-
-
-
-

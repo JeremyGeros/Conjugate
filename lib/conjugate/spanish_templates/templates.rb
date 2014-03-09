@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
- 
+
 SpanishTemplates = {
   :ar => {
     :infinitive => "{{{1}}}ar",
@@ -45,9 +45,9 @@ SpanishTemplates = {
       :ellos => "{{{1}}}arían"
     }
   },
-  
+
   :er => {
-  	:infinitive => "{{{1}}}er", 
+  	:infinitive => "{{{1}}}er",
   	:present => {
     	:yo => "{{{1}}}o",
     	:tu => "{{{1}}}es",
@@ -91,7 +91,7 @@ SpanishTemplates = {
   },
 
   :ir => {
-  	:infinitive => "{{{1}}}ir", 
+  	:infinitive => "{{{1}}}ir",
   	:present => {
   		:yo => "{{{1}}}o",
   		:tu => "{{{1}}}es",
@@ -99,7 +99,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}imos",
   		:vosotros => "{{{1}}}ís",
   		:ellos => "{{{1}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}ía",
   		:tu => "{{{1}}}ías",
@@ -135,7 +135,7 @@ SpanishTemplates = {
   },
 
   :ar_andar => {
-  	:infinitive => "{{{1}}}ar", 
+  	:infinitive => "{{{1}}}ar",
   	:present => {
   		:yo => "{{{1}}}o",
   		:tu => "{{{1}}}as",
@@ -143,7 +143,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}amos",
   		:vosotros => "{{{1}}}áis",
   		:ellos => "{{{1}}}an"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}ab",
   		:tu => "{{{1}}}abas",
@@ -179,7 +179,7 @@ SpanishTemplates = {
   },
 
   :ar_e_ie => {
-  	:infinitive => "{{{1}}}e{{{2}}}ar", 
+  	:infinitive => "{{{1}}}e{{{2}}}ar",
   	:present => {
   		:yo => "{{{1}}}ie{{{2}}}o",
   		:tu => "{{{1}}}ie{{{2}}}as",
@@ -187,7 +187,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}e{{{2}}}amos",
   		:vosotros => "{{{1}}}e{{{2}}}áis",
   		:ellos => "{{{1}}}ie{{{2}}}an"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}e{{{2}}}aba",
   		:tu => "{{{1}}}e{{{2}}}abas",
@@ -223,7 +223,7 @@ SpanishTemplates = {
   },
 
   :ar_go_güe => {
-  	:infinitive => "{{{1}}}o{{{2}}}ar", 
+  	:infinitive => "{{{1}}}o{{{2}}}ar",
   	:present => {
   		:yo => "{{{1}}}üe{{{2}}}o",
   		:tu => "{{{1}}}üe{{{2}}}as",
@@ -231,7 +231,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}o{{{2}}}amos",
   		:vosotros => "{{{1}}}o{{{2}}}áis",
   		:ellos => "{{{1}}}üe{{{2}}}an"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}o{{{2}}}aba",
   		:tu => "{{{1}}}o{{{2}}}abas",
@@ -267,7 +267,7 @@ SpanishTemplates = {
   },
 
   :ar_o_hue => {
-  	:infinitive => "{{{1}}}o{{{2}}}ar", 
+  	:infinitive => "{{{1}}}o{{{2}}}ar",
   	:present => {
   		:yo => "{{{1}}}hue{{{2}}}o",
   		:tu => "{{{1}}}hue{{{2}}}as",
@@ -275,7 +275,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}o{{{2}}}amos",
   		:vosotros => "{{{1}}}o{{{2}}}áis",
   		:ellos => "{{{1}}}hue{{{2}}}an"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}o{{{2}}}aba",
   		:tu => "{{{1}}}o{{{2}}}abas",
@@ -309,9 +309,9 @@ SpanishTemplates = {
   		:ellos => "{{{1}}}o{{{2}}}arían"
   	}
   },
-  
+
   :ar_o_ue => {
-  	:infinitive => "{{{1}}}o{{{2}}}ar", 
+  	:infinitive => "{{{1}}}o{{{2}}}ar",
   	:present => {
   		:yo => "{{{1}}}ue{{{2}}}o",
   		:tu => "{{{1}}}ue{{{2}}}as",
@@ -319,7 +319,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}o{{{2}}}amos",
   		:vosotros => "{{{1}}}o{{{2}}}áis",
   		:ellos => "{{{1}}}ue{{{2}}}an"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}o{{{2}}}aba",
   		:tu => "{{{1}}}o{{{2}}}abas",
@@ -355,7 +355,7 @@ SpanishTemplates = {
   },
 
   :car => {
-  	:infinitive => "{{{1}}}car", 
+  	:infinitive => "{{{1}}}car",
   	:present => {
   		:yo => "{{{1}}}co",
   		:tu => "{{{1}}}cas",
@@ -363,7 +363,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}camos",
   		:vosotros => "{{{1}}}cáis",
   		:ellos => "{{{1}}}can"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}caba",
   		:tu => "{{{1}}}cabas",
@@ -399,7 +399,7 @@ SpanishTemplates = {
   },
 
   :cer => {
-  	:infinitive => "{{{1}}}cer", 
+  	:infinitive => "{{{1}}}cer",
   	:present => {
   		:yo => "{{{1}}}zo",
   		:tu => "{{{1}}}ces",
@@ -407,7 +407,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}cemos",
   		:vosotros => "{{{1}}}céis",
   		:ellos => "{{{1}}}cen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}cía",
   		:tu => "{{{1}}}cías",
@@ -443,7 +443,7 @@ SpanishTemplates = {
   },
 
   :cer_o_ue => {
-  	:infinitive => "{{{1}}}o{{{2}}}cer", 
+  	:infinitive => "{{{1}}}o{{{2}}}cer",
   	:present => {
   		:yo => "{{{1}}}ue{{{2}}}zo",
   		:tu => "{{{1}}}ue{{{2}}}ces",
@@ -451,7 +451,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}o{{{2}}}cemos",
   		:vosotros => "{{{1}}}o{{{2}}}céis",
   		:ellos => "{{{1}}}ue{{{2}}}cen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}o{{{2}}}cía",
   		:tu => "{{{1}}}o{{{2}}}cías",
@@ -487,7 +487,7 @@ SpanishTemplates = {
   },
 
   :cir => {
-  	:infinitive => "{{{1}}}cir", 
+  	:infinitive => "{{{1}}}cir",
   	:present => {
   		:yo => "{{{1}}}zo",
   		:tu => "{{{1}}}ces",
@@ -495,7 +495,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}cimos",
   		:vosotros => "{{{1}}}cís",
   		:ellos => "{{{1}}}cen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}cía",
   		:tu => "{{{1}}}cías",
@@ -531,7 +531,7 @@ SpanishTemplates = {
   },
 
   :ar_dar => {
-  	:infinitive => "{{{1}}}ar", 
+  	:infinitive => "{{{1}}}ar",
   	:present => {
   		:yo => "{{{1}}}oy",
   		:tu => "{{{1}}}as",
@@ -539,7 +539,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}amos",
   		:vosotros => "{{{1}}}ais",
   		:ellos => "{{{1}}}an"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}aba",
   		:tu => "{{{1}}}abas",
@@ -575,7 +575,7 @@ SpanishTemplates = {
   },
 
   :ducir => {
-  	:infinitive => "{{{1}}}ducir", 
+  	:infinitive => "{{{1}}}ducir",
   	:present => {
   		:yo => "{{{1}}}duzco",
   		:tu => "{{{1}}}duces",
@@ -583,7 +583,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}ducimos",
   		:vosotros => "{{{1}}}ducís",
   		:ellos => "{{{1}}}ducen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}ducía",
   		:tu => "{{{1}}}ducías",
@@ -619,7 +619,7 @@ SpanishTemplates = {
   },
 
   :er_atardecer => {
-  	:infinitive => "  {{{1}}}cer", 
+  	:infinitive => "  {{{1}}}cer",
   	:present => {
   		:yo => "  {{{1}}}zco",
   		:tu => "  {{{1}}}ces",
@@ -627,7 +627,7 @@ SpanishTemplates = {
   		:nosotros => "  {{{1}}}cemos",
   		:vosotros => "  {{{1}}}céis",
   		:ellos => "  {{{1}}}cen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "  {{{1}}}cía",
   		:tu => "  {{{1}}}cías",
@@ -663,7 +663,7 @@ SpanishTemplates = {
   },
 
   :er_c_zc => {
-  	:infinitive => "{{{1}}}cer", 
+  	:infinitive => "{{{1}}}cer",
   	:present => {
   		:yo => "{{{1}}}zco",
   		:tu => "{{{1}}}ces",
@@ -671,7 +671,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}cemos",
   		:vosotros => "{{{1}}}céis",
   		:ellos => "{{{1}}}cen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}cía",
   		:tu => "{{{1}}}cías",
@@ -707,7 +707,7 @@ SpanishTemplates = {
   },
 
   :er_e_ie => {
-  	:infinitive => "{{{1}}}e{{{2}}}er", 
+  	:infinitive => "{{{1}}}e{{{2}}}er",
   	:present => {
   		:yo => "{{{1}}}ie{{{2}}}o",
   		:tu => "{{{1}}}ie{{{2}}}es",
@@ -715,7 +715,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}e{{{2}}}emos",
   		:vosotros => "{{{1}}}e{{{2}}}éis",
   		:ellos => "{{{1}}}ie{{{2}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}e{{{2}}}ía",
   		:tu => "{{{1}}}e{{{2}}}ías",
@@ -749,9 +749,9 @@ SpanishTemplates = {
   		:ellos => "{{{1}}}e{{{2}}}erían"
   	}
   },
-  
+
   :er_e_defender => {
-  	:infinitive => "{{{1}}}e{{{2}}}e{{{3}}}er", 
+  	:infinitive => "{{{1}}}e{{{2}}}e{{{3}}}er",
   	:present => {
   		:yo => "{{{1}}}e{{{2}}}ie{{{3}}}o",
   		:tu => "{{{1}}}e{{{2}}}ie{{{3}}}es",
@@ -759,7 +759,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}e{{{2}}}e{{{3}}}emos",
   		:vosotros => "{{{1}}}e{{{2}}}e{{{3}}}éis",
   		:ellos => "{{{1}}}e{{{2}}}ie{{{3}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}e{{{2}}}e{{{3}}}ía",
   		:tu => "{{{1}}}e{{{2}}}e{{{3}}}ías",
@@ -795,7 +795,7 @@ SpanishTemplates = {
   },
 
   :er_o_hue => {
-  	:infinitive => "{{{1}}}o{{{2}}}er", 
+  	:infinitive => "{{{1}}}o{{{2}}}er",
   	:present => {
   		:yo => "{{{1}}}hue{{{2}}}o",
   		:tu => "{{{1}}}hue{{{2}}}es",
@@ -803,7 +803,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}o{{{2}}}emos",
   		:vosotros => "{{{1}}}o{{{2}}}éis",
   		:ellos => "{{{1}}}hue{{{2}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}o{{{2}}}ía",
   		:tu => "{{{1}}}o{{{2}}}ías",
@@ -839,7 +839,7 @@ SpanishTemplates = {
   },
 
   :er_o_ue => {
-  	:infinitive => "{{{1}}}o{{{2}}}er", 
+  	:infinitive => "{{{1}}}o{{{2}}}er",
   	:present => {
   		:yo => "{{{1}}}ue{{{2}}}o",
   		:tu => "{{{1}}}ue{{{2}}}es",
@@ -847,7 +847,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}o{{{2}}}emos",
   		:vosotros => "{{{1}}}o{{{2}}}éis",
   		:ellos => "{{{1}}}ue{{{2}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}o{{{2}}}ía",
   		:tu => "{{{1}}}o{{{2}}}ías",
@@ -883,7 +883,7 @@ SpanishTemplates = {
   },
 
   :ar_errar => {
-  	:infinitive => "{{{1}}}errar", 
+  	:infinitive => "{{{1}}}errar",
   	:present => {
   		:yo => "{{{1}}}yerro, [[{{{1}}}erro",
   		:tu => "{{{1}}}yerras, [[{{{1}}}erras",
@@ -891,7 +891,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}erramos",
   		:vosotros => "{{{1}}}erráis",
   		:ellos => "{{{1}}}yerran, [[{{{1}}}erran"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}erraba",
   		:tu => "{{{1}}}errabas",
@@ -927,7 +927,7 @@ SpanishTemplates = {
   },
 
   :ar_estar => {
-  	:infinitive => "estar", 
+  	:infinitive => "estar",
   	:present => {
   		:yo => "estoy",
   		:tu => "estás",
@@ -935,7 +935,7 @@ SpanishTemplates = {
   		:nosotros => "estamos",
   		:vosotros => "estáis",
   		:ellos => "están"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "estaba",
   		:tu => "estabas",
@@ -971,7 +971,7 @@ SpanishTemplates = {
   },
 
   :ar_i_í => {
-  	:infinitive => "{{{1}}}i{{{2}}}ar", 
+  	:infinitive => "{{{1}}}i{{{2}}}ar",
   	:present => {
   		:yo => "{{{1}}}í{{{2}}}o",
   		:tu => "{{{1}}}í{{{2}}}as",
@@ -979,7 +979,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}i{{{2}}}amos",
   		:vosotros => "{{{1}}}i{{{2}}}áis",
   		:ellos => "{{{1}}}í{{{2}}}an"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}i{{{2}}}aba",
   		:tu => "{{{1}}}i{{{2}}}abas",
@@ -1015,7 +1015,7 @@ SpanishTemplates = {
   },
 
   :ar_u_ú => {
-  	:infinitive => "{{{1}}}u{{{2}}}ar", 
+  	:infinitive => "{{{1}}}u{{{2}}}ar",
   	:present => {
   		:yo => "{{{1}}}ú{{{2}}}o",
   		:tu => "{{{1}}}ú{{{2}}}as",
@@ -1023,7 +1023,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}u{{{2}}}amos",
   		:vosotros => "{{{1}}}u{{{2}}}áis",
   		:ellos => "{{{1}}}ú{{{2}}}an"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}u{{{2}}}aba",
   		:tu => "{{{1}}}u{{{2}}}abas",
@@ -1059,7 +1059,7 @@ SpanishTemplates = {
   },
 
   :car_o_ue => {
-  	:infinitive => "{{{1}}}o{{{2}}}car", 
+  	:infinitive => "{{{1}}}o{{{2}}}car",
   	:present => {
   		:yo => "{{{1}}}ue{{{2}}}co",
   		:tu => "{{{1}}}ue{{{2}}}cas",
@@ -1067,7 +1067,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}o{{{2}}}camos",
   		:vosotros => "{{{1}}}o{{{2}}}cáis",
   		:ellos => "{{{1}}}ue{{{2}}}can"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}o{{{2}}}caba",
   		:tu => "{{{1}}}o{{{2}}}cabas",
@@ -1103,7 +1103,7 @@ SpanishTemplates = {
   },
 
   :egir => {
-  	:infinitive => "{{{1}}}egir", 
+  	:infinitive => "{{{1}}}egir",
   	:present => {
   		:yo => "{{{1}}}ijo",
   		:tu => "{{{1}}}iges",
@@ -1111,7 +1111,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}egimos",
   		:vosotros => "{{{1}}}egís",
   		:ellos => "{{{1}}}igen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}egía",
   		:tu => "{{{1}}}egías",
@@ -1147,7 +1147,7 @@ SpanishTemplates = {
   },
 
   :er_atañer => {
-  	:infinitive => "{{{1}}}er", 
+  	:infinitive => "{{{1}}}er",
   	:present => {
   		:yo => "{{{1}}}o",
   		:tu => "{{{1}}}es",
@@ -1155,7 +1155,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}emos",
   		:vosotros => "{{{1}}}éis",
   		:ellos => "{{{1}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}ía",
   		:tu => "{{{1}}}ías",
@@ -1191,7 +1191,7 @@ SpanishTemplates = {
   },
 
   :er_caber => {
-  	:infinitive => "caber", 
+  	:infinitive => "caber",
   	:present => {
   		:yo => "quepo",
   		:tu => "cabes",
@@ -1199,7 +1199,7 @@ SpanishTemplates = {
   		:nosotros => "cabemos",
   		:vosotros => "cabéis",
   		:ellos => "caben"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "cabía",
   		:tu => "cabías",
@@ -1235,7 +1235,7 @@ SpanishTemplates = {
   },
 
   :er_caer => {
-  	:infinitive => "{{{1}}}caer", 
+  	:infinitive => "{{{1}}}caer",
   	:present => {
   		:yo => "{{{1}}}caigo",
   		:tu => "{{{1}}}caes",
@@ -1243,7 +1243,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}caemos",
   		:vosotros => "{{{1}}}caéis",
   		:ellos => "{{{1}}}caen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}caía",
   		:tu => "{{{1}}}caías",
@@ -1279,7 +1279,7 @@ SpanishTemplates = {
   },
 
   :er_haber => {
-  	:infinitive => "haber", 
+  	:infinitive => "haber",
   	:present => {
   		:yo => "he",
   		:tu => "has",
@@ -1287,7 +1287,7 @@ SpanishTemplates = {
   		:nosotros => "hemos",
   		:vosotros => "habéis",
   		:ellos => "han"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "había",
   		:tu => "habías",
@@ -1323,7 +1323,7 @@ SpanishTemplates = {
   },
 
   :er_hacer => {
-  	:infinitive => "{{{1}}}acer", 
+  	:infinitive => "{{{1}}}acer",
   	:present => {
   		:yo => "{{{1}}}ago",
   		:tu => "{{{1}}}aces",
@@ -1331,7 +1331,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}acemos",
   		:vosotros => "{{{1}}}acéis",
   		:ellos => "{{{1}}}acen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}acía",
   		:tu => "{{{1}}}acías",
@@ -1367,7 +1367,7 @@ SpanishTemplates = {
   },
 
   :er_placer => {
-  	:infinitive => "{{{1}}}placer", 
+  	:infinitive => "{{{1}}}placer",
   	:present => {
   		:yo => "{{{1}}}plazco",
   		:tu => "{{{1}}}places",
@@ -1375,7 +1375,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}placemos",
   		:vosotros => "{{{1}}}placéis",
   		:ellos => "{{{1}}}placen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}placía",
   		:tu => "{{{1}}}placías",
@@ -1411,7 +1411,7 @@ SpanishTemplates = {
   },
 
   :er_poder => {
-  	:infinitive => "poder", 
+  	:infinitive => "poder",
   	:present => {
   		:yo => "puedo",
   		:tu => "puedes",
@@ -1419,7 +1419,7 @@ SpanishTemplates = {
   		:nosotros => "podemos",
   		:vosotros => "podéis",
   		:ellos => "pueden"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "podía",
   		:tu => "podías",
@@ -1455,7 +1455,7 @@ SpanishTemplates = {
   },
 
   :er_poner => {
-  	:infinitive => "{{{1}}}poner", 
+  	:infinitive => "{{{1}}}poner",
   	:present => {
   		:yo => "{{{1}}}pongo",
   		:tu => "{{{1}}}pones",
@@ -1463,7 +1463,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}ponemos",
   		:vosotros => "{{{1}}}ponéis",
   		:ellos => "{{{1}}}ponen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}ponía",
   		:tu => "{{{1}}}ponías",
@@ -1499,7 +1499,7 @@ SpanishTemplates = {
   },
 
   :er_querer => {
-  	:infinitive => "{{{1}}}querer", 
+  	:infinitive => "{{{1}}}querer",
   	:present => {
   		:yo => "{{{1}}}quiero",
   		:tu => "{{{1}}}quieres",
@@ -1507,7 +1507,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}queremos",
   		:vosotros => "{{{1}}}queréis",
   		:ellos => "{{{1}}}quieren"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}quería",
   		:tu => "{{{1}}}querías",
@@ -1543,7 +1543,7 @@ SpanishTemplates = {
   },
 
   :er_raer => {
-  	:infinitive => "raer", 
+  	:infinitive => "raer",
   	:present => {
   		:yo => "rao",
   		:tu => "raes",
@@ -1551,7 +1551,7 @@ SpanishTemplates = {
   		:nosotros => "raemos",
   		:vosotros => "raéis",
   		:ellos => "raen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "raía",
   		:tu => "raías",
@@ -1587,7 +1587,7 @@ SpanishTemplates = {
   },
 
   :er_rehacer => {
-  	:infinitive => "rehacer", 
+  	:infinitive => "rehacer",
   	:present => {
   		:yo => "rehago",
   		:tu => "rehaces",
@@ -1595,7 +1595,7 @@ SpanishTemplates = {
   		:nosotros => "rehacemos",
   		:vosotros => "rehacéis",
   		:ellos => "rehacen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "rehacía",
   		:tu => "rehacías",
@@ -1631,7 +1631,7 @@ SpanishTemplates = {
   },
 
   :er_roer => {
-  	:infinitive => "{{{1}}}roer", 
+  	:infinitive => "{{{1}}}roer",
   	:present => {
   		:yo => "{{{1}}}roo",
   		:tu => "{{{1}}}roes",
@@ -1639,7 +1639,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}roemos",
   		:vosotros => "{{{1}}}roéis",
   		:ellos => "{{{1}}}roen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}roía",
   		:tu => "{{{1}}}roías",
@@ -1675,7 +1675,7 @@ SpanishTemplates = {
   },
 
   :er_saber => {
-  	:infinitive => "{{{1}}}saber", 
+  	:infinitive => "{{{1}}}saber",
   	:present => {
   		:yo => "{{{1}}}sé",
   		:tu => "{{{1}}}sabes",
@@ -1683,7 +1683,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}sabemos",
   		:vosotros => "{{{1}}}sabéis",
   		:ellos => "{{{1}}}saben"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}sabía",
   		:tu => "{{{1}}}sabías",
@@ -1719,7 +1719,7 @@ SpanishTemplates = {
   },
 
   :er_ser => {
-  	:infinitive => "ser", 
+  	:infinitive => "ser",
   	:present => {
   		:yo => "soy",
   		:tu => "eres",
@@ -1727,7 +1727,7 @@ SpanishTemplates = {
   		:nosotros => "somos",
   		:vosotros => "sois",
   		:ellos => "son"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "era",
   		:tu => "eras",
@@ -1763,7 +1763,7 @@ SpanishTemplates = {
   },
 
   :er_soler => {
-  	:infinitive => "soler", 
+  	:infinitive => "soler",
   	:present => {
   		:yo => "suelo",
   		:tu => "sueles",
@@ -1771,7 +1771,7 @@ SpanishTemplates = {
   		:nosotros => "solemos",
   		:vosotros => "soléis",
   		:ellos => "suelen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "solía",
   		:tu => "solías",
@@ -1807,7 +1807,7 @@ SpanishTemplates = {
   },
 
   :er_tener => {
-  	:infinitive => "{{{1}}}tener", 
+  	:infinitive => "{{{1}}}tener",
   	:present => {
   		:yo => "{{{1}}}tengo",
   		:tu => "{{{1}}}tienes",
@@ -1815,7 +1815,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}tenemos",
   		:vosotros => "{{{1}}}tenéis",
   		:ellos => "{{{1}}}tienen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}tenía",
   		:tu => "{{{1}}}tenías",
@@ -1851,7 +1851,7 @@ SpanishTemplates = {
   },
 
   :er_traer => {
-  	:infinitive => "{{{1}}}er", 
+  	:infinitive => "{{{1}}}er",
   	:present => {
   		:yo => "{{{1}}}igo",
   		:tu => "{{{1}}}es",
@@ -1859,7 +1859,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}emos",
   		:vosotros => "{{{1}}}éis",
   		:ellos => "{{{1}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}ía",
   		:tu => "{{{1}}}ías",
@@ -1895,7 +1895,7 @@ SpanishTemplates = {
   },
 
   :er_valer => {
-  	:infinitive => "{{{1}}}valer", 
+  	:infinitive => "{{{1}}}valer",
   	:present => {
   		:yo => "{{{1}}}valgo",
   		:tu => "{{{1}}}vales",
@@ -1903,7 +1903,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}valemos",
   		:vosotros => "{{{1}}}valéis",
   		:ellos => "{{{1}}}valen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}valía",
   		:tu => "{{{1}}}valías",
@@ -1939,7 +1939,7 @@ SpanishTemplates = {
   },
 
   :er_ver => {
-  	:infinitive => "{{{1}}}ver", 
+  	:infinitive => "{{{1}}}ver",
   	:present => {
   		:yo => "{{{1}}}veo",
   		:tu => "{{{1}}}ves",
@@ -1947,7 +1947,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}vemos",
   		:vosotros => "{{{1}}}veis",
   		:ellos => "{{{1}}}ven"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}veía",
   		:tu => "{{{1}}}veías",
@@ -1983,7 +1983,7 @@ SpanishTemplates = {
   },
 
   :er_prever => {
-  	:infinitive => "{{{1}}}ver", 
+  	:infinitive => "{{{1}}}ver",
   	:present => {
   		:yo => "{{{1}}}veo",
   		:tu => "{{{1}}}vés",
@@ -1991,7 +1991,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}vemos",
   		:vosotros => "{{{1}}}véis",
   		:ellos => "{{{1}}}vén"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}veía",
   		:tu => "{{{1}}}veías",
@@ -2027,7 +2027,7 @@ SpanishTemplates = {
   },
 
   :er_yacer => {
-  	:infinitive => "{{{1}}}yacer", 
+  	:infinitive => "{{{1}}}yacer",
   	:present => {
   		:yo => "{{{1}}}yazco",
   		:tu => "{{{1}}}yaces",
@@ -2035,7 +2035,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}yacemos",
   		:vosotros => "{{{1}}}yacéis",
   		:ellos => "{{{1}}}yacen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}yacía",
   		:tu => "{{{1}}}yacías",
@@ -2071,7 +2071,7 @@ SpanishTemplates = {
   },
 
   :eír => {
-  	:infinitive => "{{{1}}}eír", 
+  	:infinitive => "{{{1}}}eír",
   	:present => {
   		:yo => "{{{1}}}ío",
   		:tu => "{{{1}}}íes",
@@ -2079,7 +2079,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}eímos",
   		:vosotros => "{{{1}}}eís",
   		:ellos => "{{{1}}}íen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}eía",
   		:tu => "{{{1}}}eías",
@@ -2115,7 +2115,7 @@ SpanishTemplates = {
   },
 
   :gar_u_ue => {
-  	:infinitive => "jugar", 
+  	:infinitive => "jugar",
   	:present => {
   		:yo => "juego",
   		:tu => "juegas",
@@ -2123,7 +2123,7 @@ SpanishTemplates = {
   		:nosotros => "jugamos",
   		:vosotros => "jugáis",
   		:ellos => "juegan"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "jugaba",
   		:tu => "jugabas",
@@ -2159,7 +2159,7 @@ SpanishTemplates = {
   },
 
   :guar => {
-  	:infinitive => "{{{1}}}guar", 
+  	:infinitive => "{{{1}}}guar",
   	:present => {
   		:yo => "{{{1}}}guo",
   		:tu => "{{{1}}}guas",
@@ -2167,7 +2167,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}guamos",
   		:vosotros => "{{{1}}}guáis",
   		:ellos => "{{{1}}}guan"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}guaba",
   		:tu => "{{{1}}}guabas",
@@ -2203,7 +2203,7 @@ SpanishTemplates = {
   },
 
   :ir_abolir => {
-  	:infinitive => "{{{1}}}o{{{2}}}ir", 
+  	:infinitive => "{{{1}}}o{{{2}}}ir",
   	:present => {
   		:yo => "{{{1}}}o{{{2}}}o",
   		:tu => "{{{1}}}o{{{2}}}es",
@@ -2211,7 +2211,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}o{{{2}}}imos",
   		:vosotros => "{{{1}}}o{{{2}}}ís",
   		:ellos => "{{{1}}}o{{{2}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}o{{{2}}}ía",
   		:tu => "{{{1}}}o{{{2}}}ías",
@@ -2247,7 +2247,7 @@ SpanishTemplates = {
   },
 
   :ir_asir => {
-  	:infinitive => "{{{1}}}ir", 
+  	:infinitive => "{{{1}}}ir",
   	:present => {
   		:yo => "{{{1}}}go",
   		:tu => "{{{1}}}es",
@@ -2255,7 +2255,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}imos",
   		:vosotros => "{{{1}}}ís",
   		:ellos => "{{{1}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}ía",
   		:tu => "{{{1}}}ías",
@@ -2291,7 +2291,7 @@ SpanishTemplates = {
   },
 
   :aterir => {
-  	:infinitive => "{{{1}}}ir", 
+  	:infinitive => "{{{1}}}ir",
   	:present => {
   		:yo => "{{{1}}}o",
   		:tu => "{{{1}}}es",
@@ -2299,7 +2299,7 @@ SpanishTemplates = {
   		:nosotros => " {{{1}}}imos",
   		:vosotros => " {{{1}}}ís",
   		:ellos => "{{{1}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}ía",
   		:tu => "{{{1}}}ías",
@@ -2335,7 +2335,7 @@ SpanishTemplates = {
   },
 
   :ir_decir => {
-  	:infinitive => "{{{1}}}decir", 
+  	:infinitive => "{{{1}}}decir",
   	:present => {
   		:yo => "{{{1}}}digo",
   		:tu => "{{{1}}}dices",
@@ -2343,7 +2343,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}decimos",
   		:vosotros => "{{{1}}}decís",
   		:ellos => "{{{1}}}dicen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}decía",
   		:tu => "{{{1}}}decías",
@@ -2379,7 +2379,7 @@ SpanishTemplates = {
   },
 
   :ir_e_ie => {
-  	:infinitive => "{{{1}}}e{{{2}}}ir", 
+  	:infinitive => "{{{1}}}e{{{2}}}ir",
   	:present => {
   		:yo => "{{{1}}}ie{{{2}}}o",
   		:tu => "{{{1}}}ie{{{2}}}es",
@@ -2387,7 +2387,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}e{{{2}}}imos",
   		:vosotros => "{{{1}}}e{{{2}}}ís",
   		:ellos => "{{{1}}}ie{{{2}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}e{{{2}}}ía",
   		:tu => "{{{1}}}e{{{2}}}ías",
@@ -2423,7 +2423,7 @@ SpanishTemplates = {
   },
 
   :ir_embaír => {
-  	:infinitive => "{{{1}}}aír", 
+  	:infinitive => "{{{1}}}aír",
   	:present => {
   		:yo => "-",
   		:tu => "-",
@@ -2431,7 +2431,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}aímos",
   		:vosotros => "{{{1}}}aís",
   		:ellos => "-"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}aía",
   		:tu => "{{{1}}}aías",
@@ -2467,7 +2467,7 @@ SpanishTemplates = {
   },
 
   :ir_erguir => {
-  	:infinitive => "erguir", 
+  	:infinitive => "erguir",
   	:present => {
   		:yo => "irgo, yergo",
   		:tu => "irgues, yergues",
@@ -2475,7 +2475,7 @@ SpanishTemplates = {
   		:nosotros => "erguimos",
   		:vosotros => "erguís",
   		:ellos => "irguen, yerguen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "erguía",
   		:tu => "erguías",
@@ -2511,7 +2511,7 @@ SpanishTemplates = {
   },
 
   :ir_i_ie => {
-  	:infinitive => "{{{1}}}i{{{2}}}ir", 
+  	:infinitive => "{{{1}}}i{{{2}}}ir",
   	:present => {
   		:yo => "{{{1}}}ie{{{2}}}o",
   		:tu => "{{{1}}}ie{{{2}}}es",
@@ -2519,7 +2519,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}i{{{2}}}imos",
   		:vosotros => "{{{1}}}i{{{2}}}ís",
   		:ellos => "{{{1}}}ie{{{2}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}i{{{2}}}ía",
   		:tu => "{{{1}}}i{{{2}}}ías",
@@ -2555,7 +2555,7 @@ SpanishTemplates = {
   },
 
   :ir_ir => {
-  	:infinitive => "ir", 
+  	:infinitive => "ir",
   	:present => {
   		:yo => "voy",
   		:tu => "vas",
@@ -2563,7 +2563,7 @@ SpanishTemplates = {
   		:nosotros => "vamos",
   		:vosotros => "vais",
   		:ellos => "van"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "iba",
   		:tu => "ibas",
@@ -2599,7 +2599,7 @@ SpanishTemplates = {
   },
 
   :ir_o_ue => {
-  	:infinitive => "{{{1}}}o{{{2}}}ir", 
+  	:infinitive => "{{{1}}}o{{{2}}}ir",
   	:present => {
   		:yo => "{{{1}}}ue{{{2}}}o",
   		:tu => "{{{1}}}ue{{{2}}}es",
@@ -2607,7 +2607,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}o{{{2}}}imos",
   		:vosotros => "{{{1}}}o{{{2}}}ís",
   		:ellos => "{{{1}}}ue{{{2}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}o{{{2}}}ía",
   		:tu => "{{{1}}}o{{{2}}}ías",
@@ -2643,7 +2643,7 @@ SpanishTemplates = {
   },
 
   :ir_oír => {
-  	:infinitive => "{{{1}}}ír", 
+  	:infinitive => "{{{1}}}ír",
   	:present => {
   		:yo => "{{{1}}}igo",
   		:tu => "{{{1}}}yes",
@@ -2651,7 +2651,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}ímos",
   		:vosotros => "{{{1}}}ís",
   		:ellos => "{{{1}}}yen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}ía",
   		:tu => "{{{1}}}ías",
@@ -2687,7 +2687,7 @@ SpanishTemplates = {
   },
 
   :ir_rehuir => {
-  	:infinitive => "rehuir", 
+  	:infinitive => "rehuir",
   	:present => {
   		:yo => "rehúyo",
   		:tu => "rehúyes",
@@ -2695,7 +2695,7 @@ SpanishTemplates = {
   		:nosotros => "rehuimos",
   		:vosotros => "rehuís",
   		:ellos => "rehúyen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "rehuía",
   		:tu => "rehuías",
@@ -2731,7 +2731,7 @@ SpanishTemplates = {
   },
 
   :ir_salir => {
-  	:infinitive => "{{{1}}}salir", 
+  	:infinitive => "{{{1}}}salir",
   	:present => {
   		:yo => "{{{1}}}salgo",
   		:tu => "{{{1}}}sales",
@@ -2739,7 +2739,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}salimos",
   		:vosotros => "{{{1}}}salís",
   		:ellos => "{{{1}}}salen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}salía",
   		:tu => "{{{1}}}salías",
@@ -2775,7 +2775,7 @@ SpanishTemplates = {
   },
 
   :ir_venir => {
-  	:infinitive => "{{{1}}}venir", 
+  	:infinitive => "{{{1}}}venir",
   	:present => {
   		:yo => "{{{1}}}vengo",
   		:tu => "{{{1}}}vienes",
@@ -2783,7 +2783,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}venimos",
   		:vosotros => "{{{1}}}venís",
   		:ellos => "{{{1}}}vienen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}venía",
   		:tu => "{{{1}}}venías",
@@ -2819,7 +2819,7 @@ SpanishTemplates = {
   },
 
   :izar => {
-  	:infinitive => "{{{1}}}izar", 
+  	:infinitive => "{{{1}}}izar",
   	:present => {
   		:yo => "{{{1}}}ízo",
   		:tu => "{{{1}}}ízas",
@@ -2827,7 +2827,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}izamos",
   		:vosotros => "{{{1}}}izáis",
   		:ellos => "{{{1}}}ízan"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}izaba",
   		:tu => "{{{1}}}izabas",
@@ -2863,7 +2863,7 @@ SpanishTemplates = {
   },
 
   :ñer => {
-  	:infinitive => "{{{1}}}er", 
+  	:infinitive => "{{{1}}}er",
   	:present => {
   		:yo => "{{{1}}}o",
   		:tu => "{{{1}}}es",
@@ -2871,7 +2871,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}emos",
   		:vosotros => "{{{1}}}éis",
   		:ellos => "{{{1}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}ía",
   		:tu => "{{{1}}}ías",
@@ -2907,7 +2907,7 @@ SpanishTemplates = {
   },
 
   :gar => {
-  	:infinitive => "{{{1}}}gar", 
+  	:infinitive => "{{{1}}}gar",
   	:present => {
   		:yo => "{{{1}}}go",
   		:tu => "{{{1}}}gas",
@@ -2915,7 +2915,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}gamos",
   		:vosotros => "{{{1}}}gáis",
   		:ellos => "{{{1}}}gan"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}gaba",
   		:tu => "{{{1}}}gabas",
@@ -2951,7 +2951,7 @@ SpanishTemplates = {
   },
 
   :gar_e_ie => {
-  	:infinitive => "{{{1}}}e{{{2}}}gar", 
+  	:infinitive => "{{{1}}}e{{{2}}}gar",
   	:present => {
   		:yo => "{{{1}}}ie{{{2}}}go",
   		:tu => "{{{1}}}ie{{{2}}}gas",
@@ -2959,7 +2959,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}e{{{2}}}gamos",
   		:vosotros => "{{{1}}}e{{{2}}}gáis",
   		:ellos => "{{{1}}}ie{{{2}}}gan"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}e{{{2}}}gaba",
   		:tu => "{{{1}}}e{{{2}}}gabas",
@@ -2995,7 +2995,7 @@ SpanishTemplates = {
   },
 
   :gar_o_ue => {
-  	:infinitive => "{{{1}}}o{{{2}}}gar", 
+  	:infinitive => "{{{1}}}o{{{2}}}gar",
   	:present => {
   		:yo => "{{{1}}}ue{{{2}}}go",
   		:tu => "{{{1}}}ue{{{2}}}gas",
@@ -3003,7 +3003,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}o{{{2}}}gamos",
   		:vosotros => "{{{1}}}o{{{2}}}gáis",
   		:ellos => "{{{1}}}ue{{{2}}}gan"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}o{{{2}}}gaba",
   		:tu => "{{{1}}}o{{{2}}}gabas",
@@ -3039,7 +3039,7 @@ SpanishTemplates = {
   },
 
   :ger => {
-  	:infinitive => "{{{1}}}ger", 
+  	:infinitive => "{{{1}}}ger",
   	:present => {
   		:yo => "{{{1}}}jo",
   		:tu => "{{{1}}}ges",
@@ -3047,7 +3047,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}gemos",
   		:vosotros => "{{{1}}}géis",
   		:ellos => "{{{1}}}gen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}gía",
   		:tu => "{{{1}}}gías",
@@ -3083,7 +3083,7 @@ SpanishTemplates = {
   },
 
   :gir => {
-  	:infinitive => "{{{1}}}gir", 
+  	:infinitive => "{{{1}}}gir",
   	:present => {
   		:yo => "{{{1}}}jo",
   		:tu => "{{{1}}}ges",
@@ -3091,7 +3091,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}gimos",
   		:vosotros => "{{{1}}}gís",
   		:ellos => "{{{1}}}gen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}gía",
   		:tu => "{{{1}}}gías",
@@ -3127,7 +3127,7 @@ SpanishTemplates = {
   },
 
   :guir => {
-  	:infinitive => "{{{1}}}guir", 
+  	:infinitive => "{{{1}}}guir",
   	:present => {
   		:yo => "{{{1}}}go",
   		:tu => "{{{1}}}gues",
@@ -3135,7 +3135,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}guimos",
   		:vosotros => "{{{1}}}guís",
   		:ellos => "{{{1}}}guen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}guía",
   		:tu => "{{{1}}}guías",
@@ -3171,7 +3171,7 @@ SpanishTemplates = {
   },
 
   :guir_e_i => {
-  	:infinitive => "{{{1}}}e{{{2}}}guir", 
+  	:infinitive => "{{{1}}}e{{{2}}}guir",
   	:present => {
   		:yo => "{{{1}}}i{{{2}}}go",
   		:tu => "{{{1}}}i{{{2}}}gues",
@@ -3179,7 +3179,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}e{{{2}}}guimos",
   		:vosotros => "{{{1}}}e{{{2}}}guís",
   		:ellos => "{{{1}}}i{{{2}}}guen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}e{{{2}}}guía",
   		:tu => "{{{1}}}e{{{2}}}guías",
@@ -3215,7 +3215,7 @@ SpanishTemplates = {
   },
 
   :güir => {
-  	:infinitive => "{{{1}}}güir", 
+  	:infinitive => "{{{1}}}güir",
   	:present => {
   		:yo => "{{{1}}}guyo",
   		:tu => "{{{1}}}guyes",
@@ -3223,7 +3223,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}güimos",
   		:vosotros => "{{{1}}}güís",
   		:ellos => "{{{1}}}guyen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}güía",
   		:tu => "{{{1}}}güías",
@@ -3259,7 +3259,7 @@ SpanishTemplates = {
   },
 
   :car_i_í => {
-  	:infinitive => "{{{1}}}i{{{2}}}car", 
+  	:infinitive => "{{{1}}}i{{{2}}}car",
   	:present => {
   		:yo => "{{{1}}}í{{{2}}}co",
   		:tu => "{{{1}}}í{{{2}}}cas",
@@ -3267,7 +3267,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}i{{{2}}}camos",
   		:vosotros => "{{{1}}}i{{{2}}}cáis",
   		:ellos => "{{{1}}}í{{{2}}}can"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}i{{{2}}}caba",
   		:tu => "{{{1}}}i{{{2}}}cabas",
@@ -3303,7 +3303,7 @@ SpanishTemplates = {
   },
 
   :gar_i_í => {
-  	:infinitive => "{{{1}}}i{{{2}}}gar", 
+  	:infinitive => "{{{1}}}i{{{2}}}gar",
   	:present => {
   		:yo => "{{{1}}}í{{{2}}}go",
   		:tu => "{{{1}}}í{{{2}}}gas",
@@ -3311,7 +3311,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}i{{{2}}}gamos",
   		:vosotros => "{{{1}}}i{{{2}}}gáis",
   		:ellos => "{{{1}}}í{{{2}}}gan"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}i{{{2}}}gaba",
   		:tu => "{{{1}}}i{{{2}}}gabas",
@@ -3347,7 +3347,7 @@ SpanishTemplates = {
   },
 
   :iar_ar => {
-  	:infinitive => "{{{1}}}iar", 
+  	:infinitive => "{{{1}}}iar",
   	:present => {
   		:yo => "{{{1}}}ío",
   		:tu => "{{{1}}}ías",
@@ -3355,7 +3355,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}iamos",
   		:vosotros => "{{{1}}}iáis",
   		:ellos => "{{{1}}}ían"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}iaba",
   		:tu => "{{{1}}}iabas",
@@ -3391,7 +3391,7 @@ SpanishTemplates = {
   },
 
   :ir_c_zc => {
-  	:infinitive => "{{{1}}}cir", 
+  	:infinitive => "{{{1}}}cir",
   	:present => {
   		:yo => "{{{1}}}zco",
   		:tu => "{{{1}}}ces",
@@ -3399,7 +3399,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}cimos",
   		:vosotros => "{{{1}}}cís",
   		:ellos => "{{{1}}}cen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}cía",
   		:tu => "{{{1}}}cías",
@@ -3435,7 +3435,7 @@ SpanishTemplates = {
   },
 
   :ir_e_i => {
-  	:infinitive => "{{{1}}}e{{{2}}}ir", 
+  	:infinitive => "{{{1}}}e{{{2}}}ir",
   	:present => {
   		:yo => "{{{1}}}i{{{2}}}o",
   		:tu => "{{{1}}}i{{{2}}}es",
@@ -3443,7 +3443,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}e{{{2}}}imos",
   		:vosotros => "{{{1}}}e{{{2}}}ís",
   		:ellos => "{{{1}}}i{{{2}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}e{{{2}}}ía",
   		:tu => "{{{1}}}e{{{2}}}ías",
@@ -3477,9 +3477,9 @@ SpanishTemplates = {
   		:ellos => "{{{1}}}e{{{2}}}irían"
   	}
   },
-  
+
   :ir_e_e_i => {
-  	:infinitive => "{{{1}}}e{{{2}}}e{{{3}}}ir", 
+  	:infinitive => "{{{1}}}e{{{2}}}e{{{3}}}ir",
   	:present => {
   		:yo => "{{{1}}}e{{{2}}}i{{{3}}}o",
   		:tu => "{{{1}}}e{{{2}}}i{{{3}}}es",
@@ -3487,7 +3487,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}e{{{2}}}e{{{3}}}imos",
   		:vosotros => "{{{1}}}e{{{2}}}e{{{3}}}ís",
   		:ellos => "{{{1}}}e{{{2}}}i{{{3}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}e{{{2}}}e{{{3}}}ía",
   		:tu => "{{{1}}}e{{{2}}}e{{{3}}}ías",
@@ -3523,7 +3523,7 @@ SpanishTemplates = {
   },
 
   :ir_e_ie_i => {
-  	:infinitive => "{{{1}}}e{{{2}}}ir", 
+  	:infinitive => "{{{1}}}e{{{2}}}ir",
   	:present => {
   		:yo => "{{{1}}}ie{{{2}}}o",
   		:tu => "{{{1}}}ie{{{2}}}es",
@@ -3531,7 +3531,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}e{{{2}}}imos",
   		:vosotros => "{{{1}}}e{{{2}}}ís",
   		:ellos => "{{{1}}}ie{{{2}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}e{{{2}}}ía",
   		:tu => "{{{1}}}e{{{2}}}ías",
@@ -3565,9 +3565,9 @@ SpanishTemplates = {
   		:ellos => "{{{1}}}e{{{2}}}irían"
   	}
   },
-  
+
   :ir_e_e_ie_i => {
-  	:infinitive => "{{{1}}}e{{{2}}}e{{{2}}}ir", 
+  	:infinitive => "{{{1}}}e{{{2}}}e{{{2}}}ir",
   	:present => {
   		:yo => "{{{1}}}e{{{2}}}ie{{{3}}}o",
   		:tu => "{{{1}}}e{{{2}}}ie{{{3}}}es",
@@ -3575,7 +3575,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}e{{{2}}}e{{{3}}}imos",
   		:vosotros => "{{{1}}}e{{{2}}}e{{{3}}}ís",
   		:ellos => "{{{1}}}e{{{2}}}ie{{{3}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}e{{{2}}}e{{{3}}}ía",
   		:tu => "{{{1}}}e{{{2}}}e{{{3}}}ías",
@@ -3609,9 +3609,9 @@ SpanishTemplates = {
   		:ellos => "{{{1}}}e{{{2}}}e{{{3}}}irían"
   	}
   },
-  
+
   :ir_desmentir => {
-  	:infinitive => "{{{1}}}e{{{2}}}e{{{3}}}ir", 
+  	:infinitive => "{{{1}}}e{{{2}}}e{{{3}}}ir",
   	:present => {
   		:yo => "{{{1}}}e{{{2}}}ie{{{3}}}o",
   		:tu => "{{{1}}}e{{{2}}}ie{{{3}}}es",
@@ -3619,7 +3619,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}e{{{2}}}e{{{3}}}imos",
   		:vosotros => "{{{1}}}e{{{2}}}e{{{3}}}ís",
   		:ellos => "{{{1}}}e{{{2}}}ie{{{3}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}e{{{2}}}ía",
   		:tu => "{{{1}}}e{{{2}}}ías",
@@ -3655,7 +3655,7 @@ SpanishTemplates = {
   },
 
   :ir_i_í => {
-  	:infinitive => "{{{1}}}i{{{2}}}ir", 
+  	:infinitive => "{{{1}}}i{{{2}}}ir",
   	:present => {
   		:yo => "{{{1}}}í{{{2}}}o",
   		:tu => "{{{1}}}í{{{2}}}es",
@@ -3663,7 +3663,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}i{{{2}}}imos",
   		:vosotros => "{{{1}}}i{{{2}}}ís",
   		:ellos => "{{{1}}}í{{{2}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}i{{{2}}}ía",
   		:tu => "{{{1}}}i{{{2}}}ías",
@@ -3699,7 +3699,7 @@ SpanishTemplates = {
   },
 
   :ir_u_ú => {
-  	:infinitive => "{{{1}}}u{{{2}}}ir", 
+  	:infinitive => "{{{1}}}u{{{2}}}ir",
   	:present => {
   		:yo => "{{{1}}}ú{{{2}}}o",
   		:tu => "{{{1}}}ú{{{2}}}es",
@@ -3707,7 +3707,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}u{{{2}}}imos",
   		:vosotros => "{{{1}}}u{{{2}}}ís",
   		:ellos => "{{{1}}}ú{{{2}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}u{{{2}}}ía",
   		:tu => "{{{1}}}u{{{2}}}ías",
@@ -3743,7 +3743,7 @@ SpanishTemplates = {
   },
 
   :quir => {
-  	:infinitive => "{{{1}}}quir", 
+  	:infinitive => "{{{1}}}quir",
   	:present => {
   		:yo => "{{{1}}}co",
   		:tu => "{{{1}}}ques",
@@ -3751,7 +3751,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}quimos",
   		:vosotros => "{{{1}}}quís",
   		:ellos => "{{{1}}}quen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}quía",
   		:tu => "{{{1}}}quías",
@@ -3787,7 +3787,7 @@ SpanishTemplates = {
   },
 
   :uir => {
-  	:infinitive => "{{{1}}}uir", 
+  	:infinitive => "{{{1}}}uir",
   	:present => {
   		:yo => "{{{1}}}uyo",
   		:tu => "{{{1}}}uyes",
@@ -3795,7 +3795,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}uimos",
   		:vosotros => "{{{1}}}uís",
   		:ellos => "{{{1}}}uyen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}uía",
   		:tu => "{{{1}}}uías",
@@ -3831,7 +3831,7 @@ SpanishTemplates = {
   },
 
   :zar => {
-  	:infinitive => "{{{1}}}zar", 
+  	:infinitive => "{{{1}}}zar",
   	:present => {
   		:yo => "{{{1}}}zo",
   		:tu => "{{{1}}}zas",
@@ -3839,7 +3839,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}zamos",
   		:vosotros => "{{{1}}}záis",
   		:ellos => "{{{1}}}zan"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}zaba",
   		:tu => "{{{1}}}zabas",
@@ -3875,7 +3875,7 @@ SpanishTemplates = {
   },
 
   :zar_e_ie => {
-  	:infinitive => "{{{1}}}e{{{2}}}zar", 
+  	:infinitive => "{{{1}}}e{{{2}}}zar",
   	:present => {
   		:yo => "{{{1}}}ie{{{2}}}zo",
   		:tu => "{{{1}}}ie{{{2}}}zas",
@@ -3883,7 +3883,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}e{{{2}}}zamos",
   		:vosotros => "{{{1}}}e{{{2}}}záis",
   		:ellos => "{{{1}}}ie{{{2}}}zan"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}e{{{2}}}zaba",
   		:tu => "{{{1}}}e{{{2}}}zabas",
@@ -3919,7 +3919,7 @@ SpanishTemplates = {
   },
 
   :zar_go_güe => {
-  	:infinitive => "{{{1}}}go{{{2}}}zar", 
+  	:infinitive => "{{{1}}}go{{{2}}}zar",
   	:present => {
   		:yo => "{{{1}}}güe{{{2}}}zo",
   		:tu => "{{{1}}}güe{{{2}}}zas",
@@ -3927,7 +3927,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}go{{{2}}}zamos",
   		:vosotros => "{{{1}}}go{{{2}}}záis",
   		:ellos => "{{{1}}}güe{{{2}}}zan"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}go{{{2}}}zaba",
   		:tu => "{{{1}}}go{{{2}}}zabas",
@@ -3963,7 +3963,7 @@ SpanishTemplates = {
   },
 
   :zar_o_ue => {
-  	:infinitive => "{{{1}}}o{{{2}}}zar", 
+  	:infinitive => "{{{1}}}o{{{2}}}zar",
   	:present => {
   		:yo => "{{{1}}}ue{{{2}}}zo",
   		:tu => "{{{1}}}ue{{{2}}}zas",
@@ -3971,7 +3971,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}o{{{2}}}zamos",
   		:vosotros => "{{{1}}}o{{{2}}}záis",
   		:ellos => "{{{1}}}ue{{{2}}}zan"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}o{{{2}}}zaba",
   		:tu => "{{{1}}}o{{{2}}}zabas",
@@ -4007,7 +4007,7 @@ SpanishTemplates = {
   },
 
   :ñir => {
-  	:infinitive => "{{{1}}}ir", 
+  	:infinitive => "{{{1}}}ir",
   	:present => {
   		:yo => "{{{1}}}o",
   		:tu => "{{{1}}}es",
@@ -4015,7 +4015,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}imos",
   		:vosotros => "{{{1}}}ís",
   		:ellos => "{{{1}}}en"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}ía",
   		:tu => "{{{1}}}ías",
@@ -4051,7 +4051,7 @@ SpanishTemplates = {
   },
 
   :ñir_e_i => {
-  	:infinitive => "{{{1}}}e{{{2}}}ñir", 
+  	:infinitive => "{{{1}}}e{{{2}}}ñir",
   	:present => {
   		:yo => "{{{1}}}i{{{2}}}ño",
   		:tu => "{{{1}}}i{{{2}}}ñes",
@@ -4059,7 +4059,7 @@ SpanishTemplates = {
   		:nosotros => "{{{1}}}e{{{2}}}ñimos",
   		:vosotros => "{{{1}}}e{{{2}}}ñís",
   		:ellos => "{{{1}}}i{{{2}}}ñen"
-  	}, 
+  	},
   	:imperfect => {
   		:yo => "{{{1}}}e{{{2}}}ñía",
   		:tu => "{{{1}}}e{{{2}}}ñías",
@@ -4092,5 +4092,5 @@ SpanishTemplates = {
   		:vosotros => "{{{1}}}e{{{2}}}ñiríais",
   		:ellos => "{{{1}}}e{{{2}}}ñirían"
   	}
-  } 
+  }
 }
