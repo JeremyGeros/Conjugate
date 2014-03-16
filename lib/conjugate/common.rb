@@ -3,23 +3,15 @@ module Common
   @@dividing_infinitive_regex = /\{{3}\d+\}{3}([[:alpha:]]+)/
 
   def conjugate(opts ={})
-    @debug = opts[:debug].nil? ? false : true
-
     template = template(opts)
-    debug(template)
     tense = tense(opts[:tense])
-
     verb = opts[:verb]
-    debug(verb)
-
     infinitive = template[:infinitive].dup
-    debug(infinitive)
 
     verb_parts = divide_infinitive(infinitive, verb)
-    debug(verb_parts)
-    debug(tense)
+
     return nil if (tense != :passe_compose) && (template[tense].nil? || template[tense][opts[:pronoun].to_sym].nil?)
-    debug('v')
+
     conjugation_template = nil
 
     if defined? conjugation_template_finder
@@ -27,10 +19,8 @@ module Common
     else
       conjugation_template = template[tense][opts[:pronoun].to_sym].dup
     end
-    debug(conjugation_template)
 
     positions = conjugation_template.scan(/\{{3}(\d+)\}{3}/).flatten
-    debug(positions)
 
     positions.each do |p|
       if opts[:highlight]
@@ -76,13 +66,4 @@ module Common
     word_parts << word_copy unless word_copy == ""
     word_parts
   end
-
-  def debug(info)
-    if @debug
-      puts info.inspect
-    end
-  end
-
-
-
 end
