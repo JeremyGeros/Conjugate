@@ -46,7 +46,6 @@ module Common
 
   def divide_infinitive(infinitive, verb)
     inserts = infinitive.scan(@@dividing_infinitive_regex).flatten
-    debug(inserts)
 
     word_parts = []
     word_copy = verb.dup
