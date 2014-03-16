@@ -22,6 +22,21 @@ Conjugate::French.conjugate(:pronoun => :je, :verb => 'acheter', :tense => :pres
 => achète
 ```
 
+There is also a helper method to pass a language option, either the name or language code
+```
+Conjugate.conjugate({language: 'french', verb: 'jouer', tense: :present, pronoun: :je})
+=> joue
+
+Conjugate.conjugate({language: 'fr', verb: 'jouer', tense: :present, pronoun: :je})
+=> joue
+
+Conjugate.conjugate({language: 'spanish', verb: 'comprar', tense: :present, pronoun: :yo})
+=> compro
+
+Conjugate.conjugate({language: 'es', verb: 'comprar', tense: :present, pronoun: :yo})
+=> compro
+```
+
 License
 =======
 
