@@ -142,5 +142,46 @@ describe 'French Conjugations' do
       verb = Conjugate::French.conjugate({verb: 'aller', tense: :future, pronoun: :je})
       expect(verb).to eq('irai')
     end
+
+    it '.conjugates acheter correctly' do
+      verb = Conjugate::French.conjugate({verb: 'acheter', tense: :present, pronoun: :je})
+      expect(verb).to eq('achète')
+
+      verb = Conjugate::French.conjugate({verb: 'acheter', tense: :present, pronoun: :tu})
+      expect(verb).to eq('achètes')
+
+      verb = Conjugate::French.conjugate({verb: 'acheter', tense: :present, pronoun: :il})
+      expect(verb).to eq('achète')
+
+      verb = Conjugate::French.conjugate({verb: 'acheter', tense: :present, pronoun: :nous})
+      expect(verb).to eq('achetons')
+
+      verb = Conjugate::French.conjugate({verb: 'acheter', tense: :present, pronoun: :vous})
+      expect(verb).to eq('achetez')
+
+      verb = Conjugate::French.conjugate({verb: 'acheter', tense: :present, pronoun: :ils})
+      expect(verb).to eq('achètent')
+
+
+
+      verb = Conjugate::French.conjugate({verb: 'acheter', tense: :conditional, pronoun: :je})
+      expect(verb).to eq('achèterais')
+
+      verb = Conjugate::French.conjugate({verb: 'acheter', tense: :conditional, pronoun: :tu})
+      expect(verb).to eq('achèterais')
+
+      verb = Conjugate::French.conjugate({verb: 'acheter', tense: :conditional, pronoun: :il})
+      expect(verb).to eq('achèterait')
+
+      verb = Conjugate::French.conjugate({verb: 'acheter', tense: :conditional, pronoun: :nous})
+      expect(verb).to eq('achèterions')
+
+      verb = Conjugate::French.conjugate({verb: 'acheter', tense: :conditional, pronoun: :vous})
+      expect(verb).to eq('achèteriez')
+
+      verb = Conjugate::French.conjugate({verb: 'acheter', tense: :conditional, pronoun: :ils})
+      expect(verb).to eq('achèteraient')
+
+    end
   end
 end
