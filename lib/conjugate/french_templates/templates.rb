@@ -2965,53 +2965,6 @@ FrenchTemplates = {
     :past_participle => "{{{1}}}i"
   },
 
-  :lire => {
-  	:infinitive => "{{{1}}}lire", 
-  	:present => {
-  		:je => "{{{1}}}lis",
-  		:tu => "{{{1}}}lis",
-  		:il => "{{{1}}}lit",
-  		:nous => "{{{1}}}lisons",
-  		:vous => "{{{1}}}lisez",
-  		:ils => "{{{1}}}lisent"
-  	}, 
-  	:imperfect => {
-  		:je => "{{{1}}}lisais",
-  		:tu => "{{{1}}}lisais",
-  		:il => "{{{1}}}lisait",
-  		:nous => "{{{1}}}lisions",
-  		:vous => "{{{1}}}lisiez",
-  		:ils => "{{{1}}}lisaient"
-  	},
-  	:past_historic => {
-  		:je => "{{{1}}}lus",
-  		:tu => "{{{1}}}lus",
-  		:il => "{{{1}}}lut",
-  		:nous => "{{{1}}}lûmes",
-  		:vous => "{{{1}}}lûtes",
-  		:ils => "{{{1}}}lurent"
-  	},
-  	:future => {
-  		:je => "{{{1}}}lirai",
-  		:tu => "{{{1}}}liras",
-  		:il => "{{{1}}}lira",
-  		:nous => "{{{1}}}lirons",
-  		:vous => "{{{1}}}lirez",
-  		:ils => "{{{1}}}liront"
-  	},
-  	:conditional => {
-  		:je => "{{{1}}}lirais",
-  		:tu => "{{{1}}}lirais",
-  		:il => "{{{1}}}lirait",
-  		:nous => "{{{1}}}lirions",
-  		:vous => "{{{1}}}liriez",
-  		:ils => "{{{1}}}liraient"
-  	},
-  	
-  	:present_participle => "{{{1}}}lisant",
-    :past_participle => "{{{1}}}lu"
-  },
-
   :luire => {
   	:infinitive => "{{{1}}}luire", 
   	:present => {
