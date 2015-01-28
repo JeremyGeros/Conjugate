@@ -221,8 +221,6 @@ FrenchIrregularVerbs = {
 
   'rejeter' => :e_xx_er,
 
-  'dormir' => :ir_s,
-
   'endormir' => :ir_s,
 
   'redormir' => :ir_s,
@@ -322,8 +320,6 @@ FrenchIrregularVerbs = {
   'feindre' => :re_gn,
 
   'geindre' => :re_gn,
-
-  'peindre' => :re_gn,
 
   'repeindre' => :re_gn,
 
