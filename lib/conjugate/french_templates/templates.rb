@@ -4703,54 +4703,7 @@ FrenchTemplates = {
   	:present_participle => "taisant",
     :past_participle => "tu"
   },
-
-  :tenir => {
-  	:infinitive => "{{{1}}}tenir", 
-  	:present => {
-  		:je => "{{{1}}}tiens",
-  		:tu => "{{{1}}}tiens",
-  		:il => "{{{1}}}tient",
-  		:nous => "{{{1}}}tenons",
-  		:vous => "{{{1}}}tenez",
-  		:ils => "{{{1}}}tiennent"
-  	}, 
-  	:imperfect => {
-  		:je => "{{{1}}}tenais",
-  		:tu => "{{{1}}}tenais",
-  		:il => "{{{1}}}tenait",
-  		:nous => "{{{1}}}tenions",
-  		:vous => "{{{1}}}teniez",
-  		:ils => "{{{1}}}tenaient"
-  	},
-  	:past_historic => {
-  		:je => "{{{1}}}tins",
-  		:tu => "{{{1}}}tins",
-  		:il => "{{{1}}}tint",
-  		:nous => "{{{1}}}tînmes",
-  		:vous => "{{{1}}}tîntes",
-  		:ils => "{{{1}}}tinrent"
-  	},
-  	:future => {
-  		:je => "{{{1}}}tiendrai",
-  		:tu => "{{{1}}}tiendras",
-  		:il => "{{{1}}}tiendra",
-  		:nous => "{{{1}}}tiendrons",
-  		:vous => "{{{1}}}tiendrez",
-  		:ils => "{{{1}}}tiendront"
-  	},
-  	:conditional => {
-  		:je => "{{{1}}}tiendrais",
-  		:tu => "{{{1}}}tiendrais",
-  		:il => "{{{1}}}tiendrait",
-  		:nous => "{{{1}}}tiendrions",
-  		:vous => "{{{1}}}tiendriez",
-  		:ils => "{{{1}}}tiendraient"
-  	},
-  	
-  	:present_participle => "{{{1}}}tenant",
-    :past_participle => "{{{1}}}tenu"
-  },
-
+  
   :traire => {
   	:infinitive => "traire", 
   	:present => {
