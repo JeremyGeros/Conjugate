@@ -3,7 +3,7 @@ Conjugate
 [![Build Status](https://travis-ci.org/JeremyGeros/Conjugate.png?branch=master)](https://travis-ci.org/JeremyGeros/Conjugate)
 
 Conjugates verbs into their proper form given a pronoun. Can conjugate irregular verbs that are in this list https://gist.github.com/1841995
-Currently only has support for Spanish.
+Currently only has support for Spanish and French.
 
 ```
 Conjugate::Spanish.conjugate(:pronoun => :yo, :verb => 'tener')
@@ -16,7 +16,7 @@ Conjugate::Spanish.conjugate(:pronoun => :yo, :verb => 'tener', :tense => :past)
 => tuve
 ```
 
-Also now works for French 
+Also now works for French
 
 ```
 Conjugate::French.conjugate(:pronoun => :je, :verb => 'acheter', :tense => :present)
@@ -62,5 +62,3 @@ COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-        
-          
