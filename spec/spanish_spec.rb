@@ -109,6 +109,9 @@ describe 'Spanish Conjugations' do
 
       verb = Conjugate::Spanish.conjugate({verb: 'ir', tense: :future, pronoun: :yo})
       expect(verb).to eq('iré')
+
+      verb = Conjugate::Spanish.conjugate(:pronoun => :yo, :verb => 'tener', :tense => :past)
+      expect(verb).to eq('tuve')
     end
 
   end
