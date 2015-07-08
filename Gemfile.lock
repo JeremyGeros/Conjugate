@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    conjugate (1.6.1)
+    conjugate (1.6.2)
 
 GEM
   remote: http://rubygems.org/

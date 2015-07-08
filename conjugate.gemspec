@@ -1,6 +1,6 @@
 Gem::Specification.new do |gem|
   gem.name        = 'conjugate'
-  gem.version     = '1.6.1'
+  gem.version     = '1.6.2'
   gem.date        = '2015-07-08'
   gem.summary     = "Conjugate Verbs using a version of the templates defined here http://en.wiktionary.org/wiki/Category:Spanish_verb_inflection-table_templates"
   gem.description = gem.summary
